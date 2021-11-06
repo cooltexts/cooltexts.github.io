@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title %} {{ section.title }} {% endblock %}
+
+{% block content %}
+<h1 class="title">{{ section.title }}</h1>
+
+{% set header = get_page(path="si/header.md") %}
+{{ header.content | safe }}
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Date</th>
+      <th class="center" colspan=3>Formatted Files</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+    {% set section = get_section(path="si/_index.md") %}
+      {% for page in section.pages | reverse %}
+        {% if page.title != "skip" %}
+        <tr>
+          <td><a href="{{ page.permalink | safe }}") }}">{{ page.title }}</a></td>
+          <td><time>{{ page.year }}</time></td>
+            <td style="width: 10%" class="center"><a href="/epub/{{page.slug}}.epub">epub</a></td>
+            <td style="width: 10%" class="center"><a href="/pdf/{{page.slug}}.pdf">A4 pdf</a></td>
+            <td style="width: 10%" class="center"><a href="/pdf/{{page.slug}}-a5.pdf">A5 pdf</a></td>
+          </tr>
+        {% endif %}
+      {% endfor %}
+  </tbody>
+</table>
+
+{% set footer = get_page(path="si/footer.md") %}
+{{ footer.content | safe }}
+
+{% endblock content %}

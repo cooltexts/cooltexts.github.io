@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}{{ term.name }}{% endblock title%}
+
+{% block content %}
+
+<h1>Author: {{ term.name }}</h1>
+
+<div class="article-info">
+    <a class="nostylelink" style="text-decoration: underline;" href="{{ get_url(path="/authors") }}">
+        List of all authors
+    </a>
+</div>
+
+{% for page in term.pages %}
+<header>
+    <h1 class="tagsingle">
+        <a class="nostylelink" href="{{ page.permalink }}">{{ page.year }} - {{ page.title }}</a>
+    </h1>
+</header>
+{% endfor %}
+
+{% endblock content %}

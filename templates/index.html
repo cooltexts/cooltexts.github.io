@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %} cooltexts {% endblock %}
+
+{% block content %}
+
+{% set header = get_page(path="header.md") %}
+{{ header.content | safe }}
+
+<div class="printcontainer">
+  {% set data = load_data(path="content/prints.json") %}
+  {% for book in data %}
+  <div class="bookcontainer">
+    <img src="{{ get_url(path="") }}/covers/{{ book.cover }}" loading="lazy">
+    <div class="text">
+      <h1 class="title">{{ book.title }}</h1>
+      {% if book.author %}
+        <h1 class="author">{{ book.author }}</h1>
+      {% endif %}
+    </div>
+    <a href="{{ get_url(path="") }}/sources/{{ book.download }}"
+      style="background-image: url('{{ get_url(path="") }}/icons/download.png');"></a>
+    <a href="{{ book.buy }}" style="background-image: url('{{ get_url(path="") }}/icons/cart.png');"></a>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="footer">
+  {% set footer = get_page(path="footer.md") %}
+  {{ footer.content | safe }}
+</div>
+
+{% endblock content %}

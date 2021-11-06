@@ -1,0 +1,76 @@
+#!/bin/bash
+
+# an old script for pdf generation
+
+walk_dir () {
+	shopt -s nullglob dotglob
+
+	for pathname in "$1"/*; do
+		if [ -d "$pathname" ]; then
+			walk_dir "$pathname"
+		else
+			filename=$(basename -- "$pathname")
+			filename="${filename%.*}"
+			filename=`echo "$filename" | sed 's/_/-/g'`
+
+			a4name=static/pdf/"$filename".pdf
+			a5name=static/pdf/"$filename"-a5.pdf
+			epubname=static/epub/"$filename".epub
+
+			printf "=================\nWorking on %s\n" "$filename"
+
+			sed -n '/+++/,/+++/p' "$pathname" > temp_header
+			sed '1,/+++/d' "$pathname" > temp_markdown
+
+			htmlname=`echo "$pathname" | sed 's/texts/content/'`
+
+			markdown_edit_time=`date +%s -r "$pathname"`
+			html_edit_time=`date +%s -r "$htmlname"`
+			pdf_a4_edit_time=`date +%s -r "$a4name"`
+			pdf_a5_edit_time=`date +%s -r "$a5name"`
+			epub_edit_time=`date +%s -r "$epubname"`
+
+			# HTML generation. We also preserve the TOML header
+			if [[ "$html_edit_time" < "$markdown_edit_time" ]]; then
+				printf "Generating HTML from Markdown\n"
+				pandoc temp_markdown -f markdown -t html -o temp_html
+				cat temp_header temp_html > "$htmlname"
+			fi
+
+			# PDF generation. First we make a YAML from TOML (the lack of my sed skills is obvious, but this works)
+			# Then use pandoc to generate stuff
+			sed temp_header -e 's/+++/---/g' | sed '/taxonomies/Q' | \
+				sed 's/ =/:/g' | sed '/^date/d' > temp_pdf
+			grep date temp_header | sed 's/-.*//' | sed 's/ =/:/g' >> temp_pdf
+			grep authors temp_header | yj -ty >> temp_pdf
+			echo "---" >> temp_pdf
+			cat temp_markdown >> temp_pdf
+
+			if [[ "$pdf_a4_edit_time" < "$markdown_edit_time" ]]; then
+				printf "Generating A4 PDF\n"
+				pandoc temp_pdf -f markdown -t pdf -o "$a4name" \
+					--pdf-engine=xelatex -V mainfont:DejaVuSerif \
+					-V geometry:"top=2cm, bottom=2cm, left=2cm, right=2cm" \
+					-V geometry:a4paper -V fontsize:12pt
+			fi
+
+			if [[ "$pdf_a5_edit_time" < "$markdown_edit_time" ]]; then
+				printf "Generating A5 PDF\n"
+				pandoc temp_pdf -f markdown -t pdf -o "$a5name" \
+					--pdf-engine=xelatex -V mainfont:DejaVuSerif \
+					-V geometry:"top=1.5cm, bottom=1.5cm, left=1.5cm, right=1.5cm" \
+					-V geometry:a5paper -V fontsize:11pt
+			fi
+
+			# EPUB generation
+			if [[ "$epub_edit_time" < "$markdown_edit_time" ]]; then
+				printf "Generating EPUB from Markdown\n"
+				pandoc temp_pdf -f markdown -t epub -o "$epubname" --toc --toc-depth=1 --css=static/book.css
+			fi
+
+			rm -f temp_html temp_markdown temp_header temp_pdf
+		fi
+	done
+}
+
+walk_dir texts

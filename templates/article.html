@@ -1,37 +1,27 @@
-{% extends "base.html" %}
-
-{% block title %} {{ page.title }} {% endblock %}
-
-{% block content %}
-
-<div class="article">
 <h1 class="blogtitle">{{ page.title }}</h1>
+
 <p class="subtitle">
-    <strong>{{ page.year }} 
-        {% if page.taxonomies.authors %}
-            {% for author in page.taxonomies.authors %}
-            | <a href="{{ get_taxonomy_url(kind="authors", name=author) | safe }}">{{ author }}</a>
-            {% endfor %}
-        {% endif %}
-    </strong>
-</p>
-
-<p>Tags:
-{% if page.taxonomies.tags %}
-        {% for tag in page.taxonomies.tags %}
-        <a href="{{ get_taxonomy_url(kind="tags", name=tag) | safe }}">#{{ tag }}</a>
-        {% endfor %}
+<strong>
+{{ page.year }} 
+{% if page.taxonomies.authors %}
+    | Authors:
+    {% for author in page.taxonomies.authors %}
+        {{ author }}
+    {% endfor %}
 {% endif %}
-| Reading time: {{page.reading_time}} min.
-</p>
-
-{% if page.description %}
-{{ page.description | markdown(inline=true) | safe }}
+{% if page.taxonomies.translators %}
+    | Translators:
+    {% for translator in page.taxonomies.translators %}
+        {{ translator }}
+    {% endfor %}
 {% endif %}
+</strong>
+</p>
 
 <hr>
-
 {{ page.content | safe }} 
-</div>
 
-{% endblock content %}
+{% if page.description %}
+    <hr>
+    <i>{{ page.description | markdown(inline=true) | safe }}</i>
+{% endif %}

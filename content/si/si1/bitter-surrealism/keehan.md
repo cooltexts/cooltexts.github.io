@@ -1,0 +1,24 @@
++++
+title = "The Bitter Victory of Surrealism"
+date="1958-06-01"
+description = "Translated by Reuben Keehan. Taken from [SI online](http://www.cddc.vt.edu/sionline/si/bitter.html)."
+weight = 1
+[taxonomies]
+translators=["Reuben Keehan"]
++++
+
+> The very success of surrealism has a lot to do with the fact that the most modern side of this society's ideology has renounced a strict heirarchy of factitious values and openly uses the irrational, including vestiges of surrealism.
+
+> — Report on the Construction of Situations, June 1957
+
+SURREALISM IS A SUCCESS — but only in the context of a world that has yet to be fundamentally transformed. Having expected nothing less than the overthrow of the dominant social order, this success has turned surrealism against itself. Meanwhile, the continuing delay in the mass action devoted to this overthrow, along with the inadequacies of cultural production and other contradictions of advanced capitalism have reduced surrealism to an endless parade of degraded repetitions.
+
+In the conditions of life that it has encountered and prolonged scandalously up to now, surrealism cannot overcome its unfortunate character, because it is already, in its entirety, a *supplement* to the art and poetry liquidated by dadaism, and because all its overtures are beyond the surrealist epilogue to the history of art on the problems of a real life to construct. All those who attempt to situate themselves *after* surrealism once again discover questions which *predate* it (dadaist poetry and theater, formal investigations into the style of the "Mont-de-Piété" collection). For the most part, then, the pictorial novelties through which they have attracted attention to themselves since the end of the war are merely isolated and magnified details, caught — secretly — in the turgid morass of surrealist contributions (Max Ernst on the occasion of an exhibition in Paris at the beginning of 1958 pointed out what he had learnt from Pollock in 1942).
+
+The modern world has caught up with the formal lead that surrealism once had on it. The manifestations of novelty in effectively advanced disciplines (every scientific technique) have assumed a surrealist *appearance*: in 1955, a robot at the University of Manchester wrote a love letter that could quite easily have passed for an example of automatic writing by a gifted surrealist. But the reality that controls this evolution is that in the absence of a revolution, everything that once constituted a margin of freedom for surrealism has been co-opted and *utilized* by the repressive world that the surrealists fought against.
+
+The use of a tape recorder to teach sleeping subjects reduces the richness of dreams to derisory and repugnant utilitarian ends. Nothing, however, constitutes such a clear co-optation of the subversive discoveries of surrealism as much as the exploitation of automatic writing, and the collective games founded on it, in a method of idea mining known in the United States as "brainstorming." In *France Observateur*, Gérard Lauzun writes of the function:
+
+> In one session of limited duration (ten minutes to an hour) a limited number of people (6 to 15) have every liberty to express their ideas, the most ideas possible, no matter how outlandish, without risk of censure. The quality of the ideas is not as important as the quantity. It is absolutely forbidden to criticize an idea expressed by one of the participants, or even to smile while they are speaking. Moreover, each one has the most absolute right, the very duty, to pillage the preceding ideas in order to lend credence to them... The army, the administration, and the police have also found uses for it. Scientific research is itself substituted for brainstorming sessions at conferences and 'round-tables'... If a film producer at the CFPI needs a title, eight people can propose seventy in around fifteen minutes! Next, a slogan: one hundred and four in thirty four minutes; two are kept... Thoughtlessness, irrationality, absurdity, and sudden changes of subject are the rule. Quality makes way for quantity. The main goal of this method is the elimination of the various barriers of social constraint, timidity and stage fright that often forbid some people from speaking up at meetings or during administrative conferences, from advancing ludicrous suggestions that may still contain buried treasure! With these barriers down, we can now see that people talk and, above all, that everyone has something to say...
+
+A few American managers have been quick to see the interest of such a technique at the level of employee relations: those who can express themselves can have more. "Organize brainstorming sessions for us!" they tell the specialists: "this will show our employees that we care about their ideas, because we're asking them what they think!" The technique is rapidly becoming a vaccine against the revolutionary virus.

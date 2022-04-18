@@ -124,6 +124,89 @@ header.topbanner li {
   flex-grow: 1;
 }
 
+/* Article formatting */
+
+blockquote {
+  margin: 0 1em 0 1em;
+}
+
+.blogtitle {
+  font-size: 1.5em; 
+  margin: 0.5em 0 0 0;
+}
+
+.subtitle {
+  margin: 0.5em 0;
+}
+
+p > a > img {
+  height: 30em;
+}
+
+/* Table formatting */
+
+table {
+	border-collapse: collapse;
+  empty-cells: show;
+	margin: 1em 0;
+	width: 100%;
+}
+
+th, td {
+	border: 1px gray solid;
+	padding: 4px;
+	text-align: left;
+}
+
+thead th {
+	background: silver;
+}
+
+th {
+	background: whitesmoke;
+}
+
+th a {
+	color: black;
+}
+
+th.t {
+	background: gainsboro;
+	text-align: right;
+}
+
+th.t a {
+	font-style: italic;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  gap: 5em;
+}
+
+.flex-items {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  width: 38em;
+}
+
+sup {
+  display: inline;
+}
+
+.footnote-definition > p {
+  display: inline;
+}
+
 @media (min-width: 768px) {
   body {
     line-height: 1.5;
@@ -174,9 +257,9 @@ header.topbanner li {
   }
 
   .article {
-    width: 80%;
+    width: 38em;
     overflow: hidden;
-    margin: 1em auto 0em auto;
+    margin: 0 auto 0 auto;
   }
 
   .blogtitle {
@@ -186,7 +269,7 @@ header.topbanner li {
 
   .subtitle {
     margin: 0;
-    font-size: 1.3em;
+    font-size: 1.1em;
   }
 
   img {

@@ -13,8 +13,8 @@ generate_feed = false
 render_emoji = false
 
 taxonomies = [
-	{name = "tags"},
 	{name = "authors"},
+	{name = "translators"},
 ]
 
 [markdown]

@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %} {{ page.title }} {% endblock %}
+
+{% block content %}
+
+<div class="flex-container">
+
+{% set base_path = page.components | slice(end=-1) | join(sep="/") %}
+{% for author in page.slug | split(pat="-") %}
+    {% set page = get_page(path=base_path ~ "/" ~ author ~ ".md") %}
+    <div class="flex-items">
+        {% include "article.html" %}
+    </div>
+{% endfor %}
+</div>
+
+
+{% endblock content %}

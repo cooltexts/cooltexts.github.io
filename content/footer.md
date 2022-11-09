@@ -25,13 +25,13 @@ Github Pages and Zola, more up-to-date info is available on the
 
 You are welcome to contribute to this project in any way:
 either directly on Github, or through me.
-I am available on [Twitter](https://twitter.com/problemicist)
+I am available on [Twitter](https://twitter.com/solutionicist)
 if you have any questions, suggestions or corrections!
 
 I am looking to expand the library presented here, so if you have anything 
 you want to get a nice print of (preferrably books that are long out
 of print or have never been printed properly), shoot me a DM on Twitter or
-on Discord: `problemicist#5379`.
+on Discord: `solutionicist#5379`.
 
 ## Stuff in progress
 

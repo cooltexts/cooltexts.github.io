@@ -204,10 +204,46 @@ sup {
 }
 
 .footnote-definition > p {
-  display: inline;
+	display: inline;
+}
+
+h3 {
+	margin-bottom: 0.5rem;
+}
+
+h4 {
+	margin-bottom: 0;
+}
+
+/* container */
+.responsive-two-column-grid {
+    display:flex;
+    flex-wrap:wrap;
+	white-space: pre-line;
+	gap: 6%;
+}
+
+/* columns */
+.responsive-two-column-grid > * {
+    width:100%;
+    padding:5rem;
+}
+
+.responsive-two-column-grid div {
+	margin: 0 0 3rem 0;
+	padding: 0;
 }
 
 @media (min-width: 768px) {
+    .responsive-two-column-grid > * {
+        width:47%;
+    }
+
+	.responsive-two-column-grid div {
+		margin: 0;
+		padding: 0;
+	}
+
   body {
     line-height: 1.5;
     margin: 0 auto;
@@ -257,7 +293,7 @@ sup {
   }
 
   .article {
-    width: 38em;
+    width: 42em;
     overflow: hidden;
     margin: 0 auto 0 auto;
   }

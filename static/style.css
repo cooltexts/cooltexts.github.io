@@ -234,7 +234,18 @@ h4 {
 	padding: 0;
 }
 
+
+@media (max-width: 768px) {
+	li.disappear {
+		display: none !important;
+	}
+}
+
 @media (min-width: 768px) {
+	li.disappear {
+		display: inline;
+	}
+
     .responsive-two-column-grid > * {
         width:47%;
     }

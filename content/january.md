@@ -2,20 +2,23 @@
 title = "Bloody January"
 date = 2024-01-05
 [taxonomies]
-translators = ["andrew"]
+translators = ["andrew", "uglygooseling"]
 +++
 
-**Below we present a translation of a selection of poems on Kazakhstan's "Bloody January" uprising.
-While some of the poems have been written before January '22, we thought they
-captured something we couldn't quite get at ourselves, and served as rare rays of hope
-after Russia's invasion of Ukraine, when some of the special police units taking part
-in the massacre of protestors just a month later fighting over the airport in the Kyiv suburb of Hostomel.**
+**Below we present the translations of selected poems on Kazakhstan's
+"Bloody January" uprising of January 2022. While some poems have been
+written before the uprising, they capture the spirit of events we
+couldn't quite get at ourselves. They contain a rare sense of hope
+and courage that seems increasingly hard to muster after Russia's
+invasion of Ukraine, with some of the special police units taking part
+in the massacre of protestors just a month later fighting over the airport
+in the Kyiv suburb of Hostomel.**
 
-**Completed a long time ago, but we never managed to work out the copyrights
-for proper publication (and along with it, a proper introduction), so here they are.**
+**Having completed the translations a while ago, we never managed to
+work out the copyrights for proper publication (and along with them,
+a proper introduction), so here they are.**
 
-**Thanks to the authors, compilers, and those who helped us try to get it
-published!**
+**Thanks to the authors, compilers, and those who helped us try to get it published!**
 
 **Original works, most originally written in Russian, with some translated
 from Kazakh into Russian by translators noted on corresponding pages,
@@ -198,7 +201,7 @@ The eldest son reports
 About himself,
 With my dad I’ve exchanged happy New years,
 He’s alright.
-It’s weird seeing the burning akimat in the messengers,
+It’s weird seeing the burning akimat<a href="#f1"><sup>1</sup></a> in the messengers,
 The one you’ve walked past everyday with the stroller,
 As if the burning is not in
 Your city right now.
@@ -270,7 +273,7 @@ During the revolution:
 They rob and kill the common rich citizens
 The separation
 Into several strata
-Tongue - the main watershed,
+Tongue<a href="#f2"><sup>2</sup></a>  - the main watershed,
 A big beautiful red tongue lies in the square,
 Streams down the streets,
 Climbs into the business centers
@@ -314,10 +317,10 @@ In all the cracks.
 Как можно дальше, очень далеко
     </div>
     <div>
-    <h4>THE LIBRARIAN’S JANUARY
+    <h4>THE LIBRARIAN’S JANUARY<a href="#f3"><sup>3</sup></a> 
 </h4>January,
 Not the autumn of the patriarch,
-Not the spring of the streets beyond the river,
+Not the spring of the streets beyond the river<a href="#f4"><sup>4</sup></a> ,
 The rigid calendar
 Doesn’t let you
 Wake up from the dream.
@@ -479,7 +482,7 @@ there is nothing more important than the truth
 more frightening than the truth
 the inner she-wolf whispers
 there is nothing stronger than blood
-more defenseless than shelter
+more defenseless than shelter<a href="#f5"><sup>5</sup></a> 
 i am telling myself not to be afraid
 these are just words –
 truth home blood
@@ -494,7 +497,7 @@ truth home blood
 отверженные одиночки
 запретная любовь
 отца к дочери
-умай, присматривающая
+умай<a href="#f6"><sup>6</sup></a> , присматривающая
 за грудничками
 в мусорных контейнерах
 дорожных туалетах
@@ -506,7 +509,7 @@ truth home blood
 розница голода и диеты
 оптовые индульгенции
 <br>в среднем мире без перемен
-перманентный ақыр заман
+перманентный ақыр заман<a href="#f7"><sup>7</sup></a> 
     </div>
     <div>all quiet in the middle world
 the chronic row
@@ -514,7 +517,7 @@ of father and son
 outcast loners
 forbidden father’s love
 for daughter
-umay, looking after
+umay<a href="#f8"><sup>8</sup></a> , looking after
 the newborns
 in garbage cans
 roadside toilets
@@ -526,7 +529,7 @@ of the powers that be
 retail of hunger and diet
 wholesale indulgences
 <br>all quiet in the middle world
-permanent aqyr zaman
+permanent aqyr zaman<a href="#f9"><sup>9</sup></a> 
     </div>
 </div>
 
@@ -550,9 +553,9 @@ permanent aqyr zaman
 Следующему поколению.
     </div>
     <div>This city is immortalised
-In “Shanyrak” and “Akbulak”,
+In “Shanyrak”<a href="#f10"><sup>10</sup></a>  and “Akbulak”<a href="#f11"><sup>11</sup></a> ,
 In kettling and cyber-bullying,
-In “Sulpak” and renovation,
+In “Sulpak”<a href="#f12"><sup>12</sup></a>  and renovation,
 In trams that have disappeared,
 Disappearing mosaic,
 In burnt down monuments
@@ -965,10 +968,11 @@ curiosity
     </div>
 </div>
 
-### Ануар Дуйсенбинов - МОДЕРНИЗАЦИЯ 2.0
+### Ануар Дуйсенбинов
 
 <div class="responsive-two-column-grid">
-    <div>Все станет ясно
+    <div><h4>МОДЕРНИЗАЦИЯ 2.0
+</h4>Все станет ясно
 Огнеопасно
 Отец наш к богу когда вернешься
 Тогда рухани жангырнешься
@@ -999,14 +1003,15 @@ curiosity
 Бураном белым
 Вновь становясь святой
     </div>
-    <div>All will become palpable
+    <div><h4>MODERNIZATION 2.0
+</h4>All will become palpable
 Flammable
 Our father when will you return to god
 Then you will ruyhani janghyru
 Resting against god like against silence
 Resting against silence like against god
 When will you return to this speechlessness
-Our father then you will ruyhani janghyru
+Our father then you will ruyhani janghyru<a href="#f13"><sup>13</sup></a>
 Unto god what is god’s unto caesar what is caesar’s
 Et etke munay unto the president
 When will you drink the people’s sorpa
@@ -1019,12 +1024,12 @@ Where Kazakhs too are devoured by chronos
 Where the reddening poppy flower
 Will be gifted to me by a tall steppe boy
 And under the starry sky with him we will
-Put up the kevlar shanyrak
-Flying on the hoverbikes play kokparah
-Divert the chaban-drone
-So it shepherds the flock to zhailau
+Put up the kevlar shanyrak<a href="#f10"><sup>10</sup></a>
+Flying on the hoverbikes play kokparah<a href="#f14"><sup>14</sup></a>
+Divert the chaban-drone<a href="#f15"><sup>15</sup></a>
+So it shepherds the flock to zhailau<a href="#f16"><sup>16</sup></a>
 Eat kurt loaded with acid
-At the intertribal steppe kui-raves
+At the intertribal steppe kui-raves<a href="#f17"><sup>17</sup></a>
 And lift up Ablai on the koshma
 Whilst the Capital screams burning
 As a white blizzard
@@ -1167,7 +1172,7 @@ of communism-capitalism-national idea
 three times a day
 but you
 just want some milk
-no, not kumys or ayran or shubat
+no, not kumys<a href="#f18"><sup>18</sup></a> or ayran<a href="#f19"><sup>19</sup></a> or shubat<a href="#f20"><sup>20</sup></a>
 mother’s breast milk
 but she is ill
 instead of a mastectomy they gave the motherland a mammaplasty
@@ -1227,7 +1232,7 @@ it seems they come before the steppe
 where from now on бутыль and poles
 wires, lonely houses
 with the typical banner “Bloom, Kazakhstan!”
-here they watch only “Khabar”
+here they watch only “Khabar”<a href="#f21"><sup>21</sup></a>
 but this too isn’t scary
 <br>time to bid farewell 
 and to remember how to live in emptiness
@@ -1384,9 +1389,55 @@ Having pushed the hat onto his eyes.
     </div>
 </div>
 
-<div class="responsive-two-column-grid">
-    <div>
-    </div>
-    <div>
-    </div>
-</div>
+- - -
+
+[^f1]: _Akimat_ - a local administration
+
+[^f2]: Although it still carries a similar double meaning in English, the word
+for “tongue” and “language” in Russian is the same: _iazyk_
+
+[^f3]: The “librarian” referred to here is Nursultan Nazarbayev - ex-president
+of Kazakhstan who continued to wield considerable power in the country even
+after his official resignation in 2019. Anti-Nazarbayev slogans were generally
+very popular in the January uprising, and “librarian” ironically refers to his
+cult of personality, since his residence was located in the library named after
+him (in a city named after him too, until it was renamed back into Astana in September 2022)
+
+[^f4]: The author is playing with two fiction staples here - Gabriel García Márquez’
+“Autumn of the Patriarch” and the Soviet movie “Spring on Zarechnaya [Beyond the river] Street”
+
+[^f5]: The Russian original here plays with the words “blood”/”shelter” since
+they differ only in one letter at the end (krov’ and krov).
+
+[^f6]: Умай – древнетюркское божество, покровительница рожениц и детей
+
+[^f7]: Ақыр заман – (с каз. языка) святопредставление, конец света
+
+[^f8]: _Umay_ - the goddess of fertility in the Turkic mythology
+
+[^f9]: _Aqyr zaman_ - (in Kazakh) the End Times
+
+[^f10]: Shanyrak – the upper dome-like portion of a yurt, an element of the emblem of Kazakhstan.
+
+[^f11]: Akbulak – a western suburb of Almaty.
+
+[^f12]: Sulpak – an online store in Kazakhstan.
+
+[^f13]: Ruyhani janghyru – (kz. рухани жаңғыру, eng. spiritual revival) Kazakh modernisation programme
+
+[^f14]: Kokpar – a traditional Central Asian equestrian sport.
+
+[^f15]: Chaban – Kazakh name for a shepherd.
+
+[^f16]: Kok Zhailau  – (lit. 'sky-blue summer pasture') plateau in the Trans-Ili Alatau in Kazakhstan and Kyrgyzstan.
+
+[^f17]: Kui – traditional instrumental music performed with national plucked, bow and wind instruments.
+
+[^f18]: Mare or donkey milk
+
+[^f19]: A kefir-like beverage
+
+[^f20]: Fermented camel milk
+
+[^f21]: a 24-hour news channel in Kazakhstan opened with the involvement of ex-president Nursultan Nazarbayev.
+

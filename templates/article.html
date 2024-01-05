@@ -5,15 +5,11 @@
 {{ page.year }} 
 {% if page.taxonomies.authors %}
     | Authors:
-    {% for author in page.taxonomies.authors %}
-        {{ author }}
-    {% endfor %}
+	{{ page.taxonomies.authors | join(sep=", ") }}
 {% endif %}
 {% if page.taxonomies.translators %}
     | Translators:
-    {% for translator in page.taxonomies.translators %}
-        {{ translator }}
-    {% endfor %}
+	{{ page.taxonomies.translators | join(sep=", ") }}
 {% endif %}
 </strong>
 </p>

@@ -17,6 +17,26 @@ for their critique of the Friends of Classless Society '28 Theses' available [he
 UPD: 17 Theses from TC13 have also been translated, available [here](https://endnotes.org.uk/other_texts/en/bernard-leon-alain-in-memoriam-b-l).
 * The Society of the Spectacle is missing the later prefaces added by Debord.
 
+## Simon Clarke archive
+
+I'm also hosting a copy of Simon Clarke's Warwick website crawled
+by web.archive.org [here](../clarke). By cloning this repository locally, 
+you can have your own copy of it too, with all the books and articles.
+
+Known broken links are colored red - these resources might be available
+elsewhere! If you find any resources marked as missing, or an unmarked dead link,
+please let me know!
+
+Some of the pages, as far as I understand, were not linked from anywhere else. 
+I've kept it this way to avoid changing the look and structure of the website 
+(it might have been intentional, for all I know). However, to ease
+navigation, here's the list of the pages not otherwise linked to in one way or another from the main page:
+- [syllabus of the 2008 course on Marx's social theory with Robert Fine](../clarke/mst/mst.htm)
+- [2002-3 seminar on Gender and Work Worldwide](../clarke/gww/index.html) (most links from here are sadly dead)
+- [Trade Unions and Industrial Relations in China](../clarke/china/index.html)
+
+NOTE: The Russian Research Programme pages are still not working well. TODO
+
 ## About
 
 An archive of cool communist and anarchist texts. This website runs on
@@ -28,18 +48,21 @@ either directly on Github, or through me.
 I am available on [Twitter](https://twitter.com/solutionicist)
 if you have any questions, suggestions or corrections!
 
-I am looking to expand the library presented here, so if you have anything 
-you want to get a nice print of (preferrably books that are long out
-of print or have never been printed properly), shoot me a DM on Twitter or
-on Discord: `solutionicist#5379`.
-
 ## Stuff in progress
 
 I am currently transcribing and formatting a few books:
 * The Veritable Split in the International
-* Pashukanis Selected Writings
+* Pashukanis Selected Writings (Aug '24 - not doing this anymore - watch out
+for a new selection of early Soviet theorists of law, jointly edited and
+translated by Rafael Khachaturian and Igor Shoikhedbrod in
+Brill’s “Historical Materialism Book Series”, under the tentative title: 
+_The Revolution of Law: Developments in Soviet Legal Theory, 1917-1931_) 
 
 ## Last updates
+
+* Archived Simon Clarke's website.
+
+* Added a selection of translations of poems on the Kazakhtan's Bloody January.
 
 * Updated the *TC Reader* and the *Aufheben Decadence Series* books. They're now a little nicer and shorter (and cheaper!!!)
 

@@ -1,0 +1,632 @@
+{\rtf1\ansi\ansicpg1251\uc1 \deff0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}{\f5\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}HELVETICA;}{\f10\froman\fcharset0\fprq2{\*\panose 00000000000000000000}MS Serif{\*\falt Times New Roman};}
+{\f17\froman\fcharset204\fprq2{\*\panose 02020603050405020304}TIMES NEW ROMAN CYR;}{\f18\fswiss\fcharset204\fprq2{\*\panose 020b0604020202020204}ARIAL CYR;}{\f166\froman\fcharset238\fprq2 Times New Roman CE;}
+{\f167\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f169\froman\fcharset161\fprq2 Times New Roman Greek;}{\f170\froman\fcharset162\fprq2 Times New Roman Tur;}{\f171\froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\f172\fswiss\fcharset238\fprq2 Arial CE;}{\f173\fswiss\fcharset204\fprq2 Arial Cyr;}{\f175\fswiss\fcharset161\fprq2 Arial Greek;}{\f176\fswiss\fcharset162\fprq2 Arial Tur;}{\f177\fswiss\fcharset186\fprq2 Arial Baltic;}
+{\f196\fswiss\fcharset238\fprq2 HELVETICA CE;}{\f197\fswiss\fcharset204\fprq2 HELVETICA Cyr;}{\f199\fswiss\fcharset161\fprq2 HELVETICA Greek;}{\f200\fswiss\fcharset162\fprq2 HELVETICA Tur;}{\f201\fswiss\fcharset186\fprq2 HELVETICA Baltic;}
+{\f270\froman\fcharset0\fprq2 TIMES NEW ROMAN CYR;}{\f268\froman\fcharset238\fprq2 TIMES NEW ROMAN CYR CE;}{\f271\froman\fcharset161\fprq2 TIMES NEW ROMAN CYR Greek;}{\f272\froman\fcharset162\fprq2 TIMES NEW ROMAN CYR Tur;}
+{\f273\froman\fcharset186\fprq2 TIMES NEW ROMAN CYR Baltic;}{\f276\fswiss\fcharset0\fprq2 ARIAL CYR;}{\f274\fswiss\fcharset238\fprq2 ARIAL CYR CE;}{\f277\fswiss\fcharset161\fprq2 ARIAL CYR Greek;}{\f278\fswiss\fcharset162\fprq2 ARIAL CYR Tur;}
+{\f279\fswiss\fcharset186\fprq2 ARIAL CYR Baltic;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;
+\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\qj\sb120\nowidctlpar\adjustright \lang2057\cgrid \snext0 
+Normal;}{\s1\qj\sb240\sa60\keepn\nowidctlpar\adjustright \b\f1\fs28\lang2057\kerning28\cgrid \sbasedon0 \snext0 heading 1;}{\s2\qj\sb240\sa60\keepn\nowidctlpar\adjustright \b\i\f1\lang2057\cgrid \sbasedon0 \snext0 heading 2;}{
+\s3\qj\sb320\sa320\sl240\slmult0\keepn\nowidctlpar\hyphpar0\adjustright \b\fs26\lang2057\kerning20\cgrid \sbasedon0 \snext0 heading 3;}{\*\cs10 \additive Default Paragraph Font;}{\s15\sb120\sa120\nowidctlpar\adjustright \i\lang2057\cgrid 
+\sbasedon0 \snext0 Table;}{\s16\fi-283\li283\sb240\nowidctlpar{\*\pn \pnlvlbody\ilvl11\ls2047\pnrnot0\pnf5\pnstart1\pnindent283\pnhang{\pntxtb \'b7}}\ls2047\ilvl11\adjustright \b\f1\fs44\lang2057\cgrid \sbasedon0 \snext17 Bulleted list;}{
+\s17\fi-283\li568\sb60\nowidctlpar{\*\pn \pnlvlbody\ilvl11\ls2047\pnrnot0\pnf5\pnstart1\pnindent283\pnhang{\pntxtb *}}\ls2047\ilvl11\adjustright \b\f1\fs44\lang2057\cgrid \sbasedon16 \snext17 indented bulleted;}{\s18\qj\sb120\nowidctlpar\adjustright 
+\i\lang2057\cgrid \sbasedon0 \snext0 caption;}{\s19\qj\sb120\nowidctlpar\adjustright \fs20\cgrid \sbasedon0 \snext19 footnote text;}{\*\cs20 \additive \fs20\super \sbasedon10 footnote reference;}{\s21\qj\sl240\slmult0\nowidctlpar\adjustright 
+\fs26\lang2057\kerning20\cgrid \sbasedon0 \snext0 Runon;}{\*\cs22 \additive \fs16 \sbasedon10 annotation reference;}{\s23\sb60\sl240\slmult0\nowidctlpar\adjustright \fs26\lang2057\kerning20\cgrid \sbasedon0 \snext23 Tabletext;}{
+\s24\qj\sb120\nowidctlpar\adjustright \fs20\lang2057\cgrid \sbasedon0 \snext24 annotation text;}{\s25\qj\li238\sb120\sa120\sl-260\slmult0\nowidctlpar\adjustright \fs22\lang2057\kerning20\cgrid \sbasedon0 \snext25 Quote;}{
+\s26\qj\fi-709\li709\sb60\sa120\sl240\slmult0\nowidctlpar\adjustright \i\fs22\lang2057\kerning20\cgrid \sbasedon0 \snext26 source;}{\s27\qj\fi-720\li720\sb120\sl240\slmult0\nowidctlpar\adjustright \fs26\lang2057\kerning20\cgrid \sbasedon0 \snext27 
+Body Text 2;}{\s28\qj\sb120\nowidctlpar\tqc\tx4153\tqr\tx8306\adjustright \lang2057\cgrid \sbasedon0 \snext28 footer;}{\*\cs29 \additive \sbasedon10 page number;}{\s30\qj\sb120\nowidctlpar\adjustright \fs20\lang2057\cgrid \sbasedon0 \snext30 
+endnote text;}{\*\cs31 \additive \super \sbasedon10 endnote reference;}}{\info{\title The Economics and Sociology of Wage Differentiation: the Russian case}{\author Simon Clarke}{\operator Simon Clarke}{\creatim\yr2000\mo7\dy22\hr23\min16}
+{\revtim\yr2000\mo10\dy12\hr16\min37}{\printim\yr1999\mo12\dy22\hr23\min19}{\version15}{\edmins777}{\nofpages40}{\nofwords8189}{\nofchars44664}{\*\company Department of Sociology}{\nofcharsws52381}{\vern113}}\paperw11907\paperh16840\margl1797\margr1797 
+\widowctrl\ftnbj\aendnotes\aftnnar\lytprtmet\hyphcaps0\formshade\viewkind1\viewscale132\viewzk2\pgbrdrhead\pgbrdrfoot \fet0{\*\docvar {EN_Doc_Font_List_Name}{___Times New Roman_Times New Roman Cyr}}{\*\docvar {EN_Lib_Name_List_Name}{11odarefs.enl}}
+{\*\docvar {EN_Main_Body_Style_Name}{Sociology.ens}}\sectd \linex0\headery709\footery709\colsx709\sectdefaultcl {\footer \pard\plain \s28\qj\sb120\nowidctlpar\tqc\tx4153\tqr\tx8306\pvpara\phmrg\posxr\posy0\adjustright \lang2057\cgrid {\field{\*\fldinst {
+\cs29 PAGE  }}{\fldrslt {\cs29\lang1024 1}}}{\cs29 
+\par }\pard \s28\qj\ri360\sb120\nowidctlpar\tqc\tx4153\tqr\tx8306\adjustright {
+\par }}{\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}
+{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8
+\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \s1\qj\sb240\sa60\sl480\slmult1\keepn\widctlpar\outlinelevel0\adjustright \b\f1\fs28\lang2057\kerning28\cgrid {
+\f18 Market and Institutional Determinants of Wage Inequality in Russia 
+\par }\pard\plain \sb120\sl480\slmult1\widctlpar\adjustright \lang2057\cgrid {\i\f17 Simon Clarke\line Centre for Comparative Labour Studies,\line University of Warwick \line Coventry CV4 7AL\line }{\f17 and \line }{\i\f17 
+Institute for Comparative Labour Relations Research (ISITO), Moscow.
+\par }\pard \qj\sb120\sl480\slmult1\nowidctlpar\adjustright {Simon.Clarke@warwick.ac.uk
+\par }\pard\plain \s2\qj\sb240\sa60\sl480\slmult1\keepn\nowidctlpar\outlinelevel1\adjustright \b\i\f1\lang2057\cgrid {Keywords: 
+\par }\pard\plain \qj\sb120\sl480\slmult1\nowidctlpar\adjustright \lang2057\cgrid {Russia; wage differentiation; inequality; labour economics; industrial relations theory
+\par }\pard\plain \s1\qj\sb240\sa60\keepn\nowidctlpar\outlinelevel0\adjustright \b\f1\fs28\lang2057\kerning28\cgrid {Wordcount:
+\par }\pard\plain \qj\sb120\nowidctlpar\adjustright \lang2057\cgrid {Abstract: 158 words
+\par Text: 6423 words
+\par Footnotes: 2577 words
+\par References: 747 words
+\par Tables: 790 words
+\par Total: 10766 words
+\par }\pard\plain \s1\qj\sb240\sa60\sl480\slmult1\keepn\widctlpar\outlinelevel0\adjustright \b\f1\fs28\lang2057\kerning28\cgrid {
+\par \page }{\f18 Market and Institutional Determinants of Wage Inequality in Russia
+\par }{Abstract
+\par }\pard\plain \qj\sb120\sl480\slmult1\nowidctlpar\brdrb\brdrs\brdrw10\brsp20 \adjustright \lang2057\cgrid {
+The freeing of wages and prices from administrative control in Russia was associated with a dramatic increase in wage inequality. While recognising that the Russian labour market has been marked by an 
+exemplary degree of flexibility, competitive labour market economists have attributed the patterns of wage differentiation to institutional barriers to the market determination of wages. This paper reviews the available data to identify the determinants o
+f
+ wage differentiation in Russia in order to show that increased wage inequality in Russia is dominated by inequality within occupational categories within local labour markets. It is suggested that such inequality is associated with inter-firm differences
+ in wage levels, rather than barriers to labour mobility or differences in \lquote human capital\rquote 
+. Such a pattern of differentiation is entirely in accordance with the analyses of institutional economists and industrial relations theorists who stress the role of t
+he wage in regulating and motivating the labour force above its role in securing labour market equilibrium.
+\par }\pard \qj\sb120\sl480\slmult1\widctlpar\adjustright {
+\par Wage inequality in the Soviet Union was approximately at the level of its European capitalist neighbours (Atkinson and Micklewright, 1992), but the
+ collapse of the Soviet Union and the transition to a market economy has been associated with a rapid increase in Russian wage inequality to Latin American levels. For the competitive labour market economists who have dominated the analysis of wage differ
+e
+ntiation in Russia some increase in inequality was not unexpected, since wage differentials had been compressed by an egalitarian wages policy. The scale of the increase in wage inequality might also reflect a temporary disequilibrium in the labour market
+,
+ as increased differentials are required to stimulate the flow of labour from less to more productive employments in accordance with changing economic conditions. As people moved from low- to high-wage jobs, however, competitive labour market theory would
+ 
+lead us to expect the labour market to move back towards an equilibrium in which pay differentials would reflect differences in the skill and experience of employees.  However, the evidence from Russia suggests that wage relativities have reflected neithe
+r changing labour market conditions nor differences in skill and experience, which explain only a very small amount of wage differentiation }{\f17 
+(Brainerd, 1998; Gerber and Hout, 1998; Grogan, 1997; Newell and Reilly, 1996; Reilly, 1999; Lehmann et al., 2000).}{ I
+t would seem that the Russian labour market is not working as the competitive labour market economist would expect that it should. The explanation of this failure is not only of theoretical interest, since many of the policy prescriptions of orthodox econ
+o
+mists have been based on their diagnoses of the failures of the labour market. In this paper I want to confront these diagnoses with the available data in order to suggest that the fault lies not with the Russian labour market, which works no differently 
+from any other, but with competitive labour market theory.}{\cs20\f17\fs20\super \chftn {\footnote \pard\plain \s19\qj\sb120\sl480\slmult1\nowidctlpar\adjustright \fs20\cgrid {\cs20\super \chftn }{
+ The principal data used for this analysis is that published by the state statistical agency, Goskomstat, on the branch and regional breakdown of average wages, and 
+the data of surveys conducted bi-monthly by the survey organisation VTsIOM, the more or less annual Russian Longitudinal Monitoring Survey (RLMS) and Russian Labour Flexibility Survey (RLFS) and a household survey conducted by the Institute for Comparativ
+e
+ Labour Relations Research (ISITO) in four cities in April-May 1998. For details of these data sets see Clarke, 1999, Appendix. The RLMS data is available from www.unc.edu/rlms. The ISITO data is available through www.warwick.ac.uk/fac/soc/complabstuds/ru
+ssia.}}}{ 
+\par }\pard\plain \s2\qj\sb240\sa60\sl480\slmult1\keepn\nowidctlpar\outlinelevel1\adjustright \b\i\f1\lang2057\cgrid {\lang1024 Russia meets the World Bank}{\f17 
+\par }\pard\plain \qj\sb120\sl480\slmult1\widctlpar\adjustright \lang2057\cgrid {One of the first acts of the Yeltsin regime, in October 1991, was to free enterprises and organisations from the administrative regulation of wages, although wages in t
+he budget sector (primarily public administration, health and education) continued to be determined according to administratively defined scales and most enterprises still used the official pay scales as the basis of their internal payment systems (Standi
+n
+g, 1996, p. 116). The immediate result of the greater freedom given to enterprises in the setting of wages was that the average money wage, which had taken twenty years to increase twofold between 1970 and 1990 and had then doubled between January and Oct
+o
+ber 1991, doubled once more by December, making the freeing of state prices, most of which remained unchanged, inevitable. The wage inflation of 1991 was dwarfed by the inflationary explosion that followed the freeing of most prices at the beginning of 19
+9
+2. Consumer prices increased by 26 times over the year and the average money wage by 13 times. Only small differences in the lag with which wages were adjusted to inflation could lead to very big differences in the real wage paid by different employers. T
+hus the dispersion of wages increased dramatically between 1991 and 1992. The basic official data on wage differentials is presented in Table 1.
+\par }\pard \qc\sb120\sl480\slmult1\widctlpar\adjustright {[Table One about Here]
+\par }\pard \qj\sb120\sl480\slmult1\widctlpar\adjustright {It was clear in 1992 that the Russian labour market was working, in the sense that wages 
+and wage relativities had changed dramatically in response to the initial structural shock. But the key question was whether they were changing in response to labour market conditions, and whether employers and employees were responding appropriately to t
+hese differentials. This issue was addressed by the World Bank\rquote 
+s team of economists, headed by Simon Commander, who set the agenda for most of those who followed. Their first response was that, by the standards of competitive labour market theory, they were
+ not. Despite the acknowledged flexibility of the labour market and the responsiveness of workers to market stimuli, Russian employers fell far short of the market ideal in their wage-setting and employment behaviour. However, the basis on which the Bank
+\rquote s
+ economists judged them wanting changed somewhat over time. The first diagnosis emphasised the supposed absence of any effective budget constraint on their behaviour. The second diagnosis concentrated on their supposedly irrational labour hoarding. The th
+i
+rd diagnosis concentrated on their inappropriate wage-setting. In all three cases employers were charged with paying too much attention to the preferences of their employees and having insufficient regard to the requirement to maximise their profits, alth
+ough neither evidence nor explanation for such benevolence on the part of employers was provided.
+\par }\pard\plain \s3\qj\sb320\sa320\sl480\slmult1\keepn\nowidctlpar\hyphpar0\outlinelevel2\adjustright \b\fs26\lang2057\kerning20\cgrid {Wages, employment and the soft budget constraint
+\par }\pard\plain \qj\sb120\sl480\slmult1\widctlpar\adjustright \lang2057\cgrid {In their first analysis of the impact of radical reform the World Bank\rquote s economists argued, drawing on a 1992 
+survey of 41 firms in the Moscow region and some analysis of aggregate data, that enterprises were playing a waiting game. On the basis of a rather selective reading of the aggregate data then available they claimed that real wages had been restored to th
+eir mid-1991 level by the middle of 1992 and that there had been very little fall in employment despite a dramatic fall in output. According to their analysis, uncertainty and \lquote insider power\rquote 
+ meant that enterprise directors were reluctant to reduce employme
+nt, while by-and-large they were also able to maintain real wages because they were not subject to hard budget constraints, exploiting monopoly powers and extracting government subsidies to maintain real wages and return paper profits. They implied that t
+he colossal inflation unleashed by price liberalisation was caused by a wage-price spiral. They did not believe that the wage-price spiral reflected any power of trade unions, but it did \lquote 
+reflect the control structure and decision-making rules characterising the bulk of Russian firms\rquote 
+ (Commander et al., 1993, p. 51). Changing wage relativities, they argued, were not related to labour market conditions, but only to the ability of the firm to extract money from banks and the government to meet the wage bill of the stable labour force.
+
+\par The idea that inflation was driven by wage increases and that wage-setting was not subject to a budget constraint did not survive for long. It turned out that, on average, real wages had fallen substantially in 1992 and that profi
+ts had actually risen, so employers had not simply been able to extract money from banks or the government to pay the wage bill, but wages \lquote appear to have been primarily constrained by firm revenues (and subsidies)\rquote 
+ (Commander et al., 1995, p. 177).}{\cs20\fs20\super \chftn {\footnote \pard\plain \s19\qj\sb120\sl480\slmult1\nowidctlpar\adjustright \fs20\cgrid {\cs20\super \chftn }{ In fact the World Bank\rquote 
+s 1994 survey found that only 25-30% of enterprises received federal subsidies during 1992\endash 4 (Commander et al., 1996a, p. 22). }}}{ Relat
+ive wages were not determined simply by the ability to extract subsidies, but showed the expected relation to changes in production and relative prices and were also correlated with profits (ibid., p. 167; Commander et al., 1996a). Although there were som
+e signs of a softness in the budget constraint with regard to wage-setting for some firms in 1992 and 1993, by 1994, for the overwhelming majority of firms, the World Bank\rquote s 1994 enterprise survey concluded that \lquote 
+wage settlements were clearly constrained by the operating surplus\rquote  so that \lquote 
+firms have generally been quite effectively constrained in their wage setting by their revenues and they do not appear to have operated as if in the presence of a soft budget constraint\rquote  (Commander et al., 1996a, p. 45).
+\par }\pard\plain \s3\qj\sb320\sa320\sl480\slmult1\keepn\nowidctlpar\hyphpar0\outlinelevel2\adjustright \b\fs26\lang2057\kerning20\cgrid {Labour hoarding
+\par }\pard\plain \qj\sb120\sl480\slmult1\widctlpar\adjustright \lang2057\cgrid {
+The observation that enterprises were adjusting to falling revenue by reducing wages, while total employment fell by much less than the decline in production, led to the idea that enterprises were hoarding labour. All sorts of economic, socia
+l, ideological and political explanations for this phenomenon were assembled, but the most general was the claim that labour hoarding was an expression of enterprise paternalism as directors responded to employees\rquote 
+ preferences. Simon Commander and his colleagues explained this supposed \lquote labour hoarding\rquote  in terms of a model of a worker-controlled firm (Commander et al., 1996a, pp. 184\endash 
+9), although they recognised that trade unions do not play an adversarial role, that managers have complete discretion in set
+ting wages, that worker-shareholders enjoy no effective rights and that there is no observable difference in behaviour between state, privatised and new private firms or between those firms which are insider- or outsider-controlled. They similarly charact
+erised the willingness of Russian workers to work for much reduced wages, to suffer short-time working and lay-offs without pay and to endure the non-payment of wages for months on end as being based on an \lquote 
+implicit contract between workers and managers. Workers accept highly flexible wages and hours, and managers may in return offer a high degree of job security\rquote 
+ (Commander et al., 1996a, p. 86). However, this was a mis-characterisation of what was already a pretty one-sided contract, since the managers did
+ not offer employment stability or job security in exchange for low wages. The belief that they did is a simple fallacy of composition: those keeping their jobs were not those taking the cut in wages. At the level of the firm, there was a strong positive 
+c
+orrelation between the fall in wages and decline in employment (Commander et al., 1996a, p. 28): those firms in difficulties cut both wages and employment, the more prosperous firms were able to offer both stable wages and stable employment. Similarly, th
+ose firms which paid low wages had much the highest labour turnover,}{\cs20\fs20\super \chftn {\footnote \pard\plain \s19\qj\sb120\sl480\slmult1\nowidctlpar\adjustright \fs20\cgrid {\cs20\super \chftn }{
+ Aukutsionek and Kapeliushnikov, 1994 showed that in 1993 enterprises with low wages had a much h
+igher quit rate but about the same rate of lay-offs and hiring as those which paid high wages. However, even the low-wage employers did not have much trouble filling the vacated jobs: almost half reported having more applicants than they had vacancies. }}
+}{ often at annual rates of more than one hundred percent.}{\cs20\fs20\super \chftn {\footnote \pard\plain \s19\qj\sb120\sl480\slmult1\nowidctlpar\adjustright \fs20\cgrid {\cs20\super \chftn }{ 
+I have discussed this issue at length in Clarke, 1998a. On management employment strategy see Clarke, 1999, Chapter Two. Sergei Aukutsionek and}{\f10\fs24  }{
+Rostislav Kapelyushnikov have shown that surplus labour is retained because the costs of retaining a reserve of 
+labour are less than the costs of more rapid reduction. The scale of the reserve is not substantial: with a stabilisation of production it would be liquidated within three years (Aukutsionek and Kapelyushnikov, 1996a; Aukutsionek and Kapelyushnikov, 1996b
+). Thus \lquote labour hoarding\rquote  in Russia appears to be no different from in any other economy. }}}{ 
+\par This pattern of wage setting may not correspond to the prescriptions of competitive labour-market theory, but it is exactly that 
+which is observed by industrial sociologists and industrial relations specialists in western companies. It is not necessary to go to the lengths of postulating a model of a worker-controlled firm to recognise that employers have to take employees\rquote 
+ preferences into account in determining their wage and employment policies, not only because their policies affect employees\rquote 
+ behaviour in the labour market but primarily because they affect their behaviour in the workplace. It is the latter consideration which me
+ans that employers cannot set wages in accordance with labour market considerations alone. It is a commonplace of industrial relations research that }{\f17 pay differentials are constrained by considerations of \lquote custom\rquote  and \lquote fairness
+\rquote  (Brown and Nolan, 1988), so 
+that employers cannot simply reduce pay in response to changes in the labour market situation. Surveys in western capitalist countries consistently show that the most important factors cited by employers in the determination of pay are compensation for in
+creases in prices, the level of profits and the ability of the employer to pay, with comparability and retention playing a subsidiary role. Econometric analysis also finds that there is a very high degree of inertia in the determination of wages.}{
+\cs20\fs20\super \chftn {\footnote \pard\plain \s19\qj\sb120\sl480\slmult1\nowidctlpar\adjustright \fs20\cgrid {\cs20\super \chftn }{ Competitive labour market theorists have tried to explain such phenomena in terms of \lquote efficiency wages\rquote 
+ or of \lquote implicit contract theories\rquote  and \lquote insider-outsider\rquote  mo
+dels, according to which employees are able to bargain a share of the additional value added in more prosperous firms, but such theories fail empirically because this is a general phenomenon, not one characteristic only of particular categories of employe
+es with the appropriate bargaining power (such as those with high training costs or unionised employees).}}}{
+\par The impli
+cation is that, in order to preserve the stability and motivation of the labour force, wage structures remain relatively stable to the extent that employers are able to pay established wage rates, while labour market factors predominate only in the case o
+f employers who are under severe financial pressure to cut costs.}{\cs20\fs20\super \chftn {\footnote \pard\plain \s19\qj\sb120\sl480\slmult1\nowidctlpar\adjustright \fs20\cgrid {\cs20\super \chftn }{
+ Many Russian employers experiencing cash-flow constraints delay the payment of wages. This is a complex phenomenon that I will not consider here (Clarke, 1998b; Earle and Sabirianova, 1999).}}}{
+ The tendency for those who can afford it to pay relatively high wages is not an idiosyncratic feature of paternalistic soviet directors, since wages in the new private sector are significant
+ly higher than in traditional enterprises, while foreign-owned enterprises pay much the highest of all wages (in the data of the Russian polling organisation, VTsIOM, foreign-owned enterprises pay on average well over three times as much as state enterpri
+ses).}{\cs20\fs20\super \chftn {\footnote \pard\plain \s19\qj\sb120\sl480\slmult1\nowidctlpar\adjustright \fs20\cgrid {\cs20\super \chftn }{ Luke and Schaffer, 2000 use an \lquote efficient bargaining model\rquote  which purports to show that \lquote 
+corporate governance (wage-setting) is more disciplined in private firms\rquote , since the share of \lquote surplus\rquote  taken by workers is
+ less than in state-earned firms (p. 15). This result (which depends on removing outliers from the data set) arises, despite the fact that state sector wages are lower, because \lquote value added\rquote 
+ in the private sector is much higher than in the state sector.}}}{
+\par }\pard\plain \s3\qj\sb320\sa320\sl480\slmult1\keepn\nowidctlpar\hyphpar0\outlinelevel2\adjustright \b\fs26\lang2057\kerning20\cgrid {Wage flexibility and wage setting
+\par }\pard\plain \qj\sb120\sl480\slmult1\widctlpar\adjustright \lang2057\cgrid {While employers did not respond to the crisis in the way that the World Bank\rquote 
+s economists believed that employers should, workers also confounded their expectations. The initial belief had been that workers would be 
+reluctant to change jobs in response to emerging pay differentials because of the wide range of welfare and social benefits attached to long-service and stable employment in state enterprises. In fact, however, the workers surprised the economists by thei
+r readiness to change jobs in response even to ephemeral changes in relative wages (Commander et al., 1995, pp. 160\endash 61), to the extent that Aukutsionek and Kapeliushnikov, 1994, concluded that \lquote 
+in 1993 workers were behaving in a much more market-oriented fashion than were enterprises as employers\rquote  (p. 30). The OECD, in its country report on Russia, concurred that \lquote the labour force has exhibited a high degree of flexibility\rquote 
+ and that \lquote real wages showed remarkable flexibility\rquote  (OECD, 1995, pp. 109, 113). In regard to labour market flexibility, Russia, against all expectations, \lquote conforms better to the OECD\rquote s recommendations than any OECD country
+\rquote  (Layard and Richter, 1995, p. 40).
+\par Wages may be flexible, but this does not necessarily mean that they are performing their appropriate economic function of redeploying labour from less to more productive uses. The World Bank team\rquote 
+s analysis of the findings of their 1994 enterprise survey concluded that \lquote wage decisions appear to be conditioned primarily by firm-specific financial variables, liquidity and profitability, but also appear sensitive to \'85
+ the need to pay competitive wages to maintain attachment. But the most important consideration is the explicit association of wages with consumer price changes\rquote  (Commander et al., 1996a, p. 31). In other words, employers\rquote 
+ prime concern was to preserve the real value of wages, subject to their ability to pay and the need to recruit and retain labour, displaying their commitment to the well-being of their employees rather than ta
+king advantage of more favourable labour market conditions, as competitive labour market theory implies that they should. The result was that, despite enormous changes in relative prices and production levels, the structure of branch and regional differen
+tials had not changed substantially,}{\cs20\fs20\super \chftn {\footnote \pard\plain \s19\qj\sb120\sl480\slmult1\nowidctlpar\adjustright \fs20\cgrid {\cs20\super \chftn }{ 
+More recent data does not modify this conclusion. Most of the structural change in branch and regional wage differentials took place in the late perestroika period, the scale of the differentials then being expanded in the inflationary process during 1992
+-
+3. The pattern and degree of wage inequality has remained remarkably stable since 1994 (Table 1). There is no indication that branch and regional differentials have been responsive to labour market conditions (for a detailed discussion of the data see Cla
+rke, 1999, pp. 35\endash 
+8). Nor is monopoly power, measured by the proportion of the home market supplied by eight enterprises, a significant determinant of branch differentials, tending to discount the suggestion that increased wage differentials arise from the 
+participation of workers in monopoly rents (Brainerd, 1998, p. 1110),}}}{
+ while skill differentials appeared hardly to have changed at all, the main changes in relativities being due to inter-firm differences in liquidity and profitability. Simon Commander and his colleagues concluded that this stability of differentials 
+\lquote indicates the power of institutional features in the wage setting\rquote  (Commander et al., 1995, p. 165).}{\cs20\fs20\super \chftn {\footnote \pard\plain \s19\qj\sb120\sl480\slmult1\nowidctlpar\adjustright \fs20\cgrid {\cs20\super \chftn }{
+ Again, this is hardly a feature specific to the Russian labour market. John Dunlop noted long ago that wage differentials established in tight labour market conditions come to be \lquote regarded as proper\rquote  and \lquote 
+are not readily altered in a looser labor market\rquote  so that the wage structure is institutionalised and \lquote the product market tends to be mirrored in the labor market and to determine the wage structure. The differentials are not transitor
+y; they are not to be dismissed as imperfections\rquote  (Dunlop, 1957, p. 136. I am grateful to Mark Granovetter for drawing this reference to my attention). }}}{ 
+\par The diagnoses of the World Bank team in the early years of reform were soon established as the orthodox interpretation of 
+the development of the Russian labour market, reflected in subsequent commentaries of western economists and international organisations such as the World Bank and the OECD.}{\cs20\fs20\super \chftn {\footnote \pard\plain \s19\qj\sb120\sl480\slmult1
+\nowidctlpar\adjustright \fs20\cgrid {\cs20\super \chftn }{ The principal exception was the ILO team, led by Guy Standing, whose annual Russian Labour Flexibility Survey, which was much more rigorous and systematic than the }{\i ad hoc}{
+ enterprise surveys conducted on behalf of the World Bank, painted a very different (and much more realistic) picture of the Russian employment situation (Standing, 1996).}}}{
+ It became a commonplace that Russian employers were paternalists, responding to their employees\rquote 
+ aspirations for job security by maintaining employment at the expense of the inflationary erosion of real wages and able to do so as a result of the persistence of soft budget constraints, while employees in more profitable (or heavily subs
+idised) enterprises were able to extract a premium wage. The implication was that Russian employers had to be forced to behave in a more market-oriented fashion by subjecting them to the more rigorous financial discipline that would compel them to confine
+ 
+wages within the limits of profitability and to dispense with surplus employees. Yet, the evidence suggested that, however much labour economists might disapprove, Russian employers were behaving in very much the way that western employers behave, attempt
+ing to maintain productive efficiency and what Russian employers refer to as the \lquote manageability\rquote 
+ of the labour force by preserving the existing wage structure as best they could in the face of dramatic changes in the labour market and macroeconomic environment. 
+\par }\pard\plain \s2\qj\sb240\sa60\sl480\slmult1\keepn\widctlpar\outlinelevel1\adjustright \b\i\f1\lang2057\cgrid {Persistent inequality and barriers to labour mobility
+\par }\pard\plain \qj\sb120\sl480\slmult1\widctlpar\adjustright \lang2057\cgrid {
+The persistence of the very substantial wage inequalities that opened up in the early transition crisis might indicate to an economist that there are significant barriers to labour mobility that a
+re preventing the erosion of these differentials. The first suggestion of orthodox western economists was that people were reluctant to leave their jobs because their workplace provided them with housing and a wide range of social and welfare benefits (Co
+m
+mander et al., 1996b), an idea that could hardly be reconciled with the fact that almost a third of people were leaving their jobs each year. Nevertheless, western advisers pressed the Russian government to compel enterprises to divest their housing and s
+o
+cial and welfare facilities, transferring them to municipal authorities which had neither the staff, nor the funds, nor the managerial skills to continue to provide them (Healey et al., 1998). The result of this policy was to accelerate the collapse of th
+e construction and maintenance of housing, the social infrastructure and the provision of marketable services to the population without having any discernible impact on labour mobility. 
+\par When these policies had no impact on the labour market, many commentat
+ors turned their attention to the barriers to labour mobility supposedly constituted by the limited housing market, believing that the high levels of wage inequality were primarily a result of regional wage inequalities associated with dramatic changes in
+ 
+the geographical structure of the demand for labour. However, although the registered unemployment rate is still very low, there is no evidence of significant regional labour shortages (total employment has fallen even in Moscow city). On the other hand, 
+there is a relatively high level of inter-regional mobility, with around three million people a year moving within Russia, almost half of whom move between regions,}{\cs20\fs20\super \chftn {\footnote \pard\plain \s19\qj\sb120\sl480\slmult1
+\nowidctlpar\adjustright \fs20\cgrid {\cs20\super \chftn }{ \tab According to
+ the 1994 microcensus data, the principal motives for moving are for reasons of employment and education. Louise Grogan reports an unpublished study by Annette Brown which shows that immigration within Russia has responded positively to regional wage diff
+erentials, with out-migration responding negatively (Brown, 1997, cited in Grogan, 1997). See also Kapelyushnikov, 1999, pp. 13-14.}}}{ in addition to which there are around half a million officially registered net immigrants t
+o Russia each year, mostly from the other former Soviet Republics (Goskomstat 1998a). Finally, wage inequality within each region is substantially greater than inequality between regions. Decomposing the overall measure of wage inequality by region, using
+ 
+the mean log deviation as an additively decomposable indicator (Jenkins, 1995), shows that 18% of inequality is accounted for by wage differences between regions and 82% by wage differences within regions (Table 1). However, almost half of the difference 
+i
+n nominal wages between regions is accounted for by differences in the regional consumer price indices and 15% by differences in industrial structure, so that in real terms well over 90% of wage inequality is accounted for by differentiation within region
+s
+. It is clear that most people have a far higher chance of increasing their pay by taking a better-paid job within their own region than by taking an equivalent job in another region, even if there were no barriers to geographical mobility. We can conclud
+e that there is no evidence that barriers to regional mobility are a significant source of wage inequality.
+\par The other obvious barrier to labour mobility in a situation of rapid change is the training that is required for people to take up a job in a new occ
+upation or a new sector of the economy. There is no doubt that the soviet system of occupational training has largely broken down and a system adequate to the new market economy has only slowly emerged to take its place. }{\cs22\v\fs16  }{
+On the other hand, it is important
+ not to exaggerate the extent of the demand for new skills. Russia has lost around a quarter of its jobs since 1990, while it has a highly educated and highly trained labour force. A substantial proportion of the jobs being lost are the most highly skille
+d
+ jobs, while most of the new jobs being created demand skills which can be easily and quickly acquired (Clarke and Metalina, 2000). The number of jobs lost in the highly skilled branch of science and technology since 1990 is almost four times as many as t
+h
+e number of jobs created in the financial sector. We have already noted that research on wages in post-soviet Russia has consistently shown only a small return to either education or experience, indicating that skill shortage is not an important source of
+ wage inequality. This conclusion is supported by data on the dispersion of wages between occupations and between branches of the economy.
+\par The dispersion of wages between industrial branches has increased substantially since 1990 (Table 1), but wage inequal
+ities within industry groupings are even greater than inequalities between industries: those working in banking and finance earn on average three times as much as those working in agriculture, but the top 10% in banking earned thirty times the wages of th
+e bottom 10%. If we decompose the mean log deviation of wages, we find that within-branch variation of wages accounts for about three-quarters of inequality, the variation between branches for only 23%. 
+\par The official data indicates that increased wage inequ
+ality has not been associated with a dramatic increase in occupational pay differentials. The Goskomstat survey of occupational wages has reported on the relative wages of the same set of mostly skilled occupations in 1993, 1994, 1995 and 1997.}{
+\cs20\fs20\super \chftn {\footnote \pard\plain \s19\qj\sb120\sl480\slmult1\nowidctlpar\adjustright \fs20\cgrid {\cs20\f17\super \chftn }{ \tab 
+Unfortunately we do not have comparable data on the structure of occupational wages before 1993. However, a series of World Bank surveys of enterprises found that \lquote 
+dispersion in wages over sectors and skills that increased rapidly in 1991 was, if anything, dampened in 1992\rquote  (Commander et al., 1995, p. 166).}}}{ The impres
+sion given by this data is that, outside the energy and aviation sectors, skill differentials are still not particularly large, with very few occupations paying more than twice the average pay. The dispersion of earnings of the surveyed occupations has be
+e
+n falling since 1993, although the change is not dramatic, but the selection of occupations is by no means representative so that few conclusions can be drawn from examination of this data. Goskomstat in 1997 also surveyed the pay of enterprise directors,
+ 
+finding that around three-quarters earned (or claimed to earn) less than five times the average pay in their enterprise (Goskomstat, 1998). Finally, the RLFS enterprise surveys suggest that the differentiation of wages within enterprises is vastly less th
+an the differentiation between enterprises (Table 4). 
+\par }\pard \qc\sb120\sl480\slmult1\nowidctlpar\adjustright {[Table Two about here]
+\par }\pard \qj\sb120\sl480\slmult1\widctlpar\adjustright {If we turn to the available survey data we find that it paints a very consistent picture \endash  the bulk of pay differentiation is not between but within occupations. Table 2 shows a b
+reakdown of the dispersion of wages into components accounted for by the dispersion within 4-digit occupations in each survey location, the dispersion between occupations in each location and the dispersion between locations for data from the regular surv
+eys of VTsIOM and RLMS and the 1998 ISITO survey.}{\cs20\fs20\super \chftn {\footnote \pard\plain \s19\qj\sb120\sl480\slmult1\nowidctlpar\adjustright \fs20\cgrid {\cs20\f17\super \chftn }{ \tab 
+The MLD is quite sensitive to extreme cases at the bottom of the d
+istribution, so the precise figures should not be taken too seriously, but the cited figures understate the dispersion within occupational categories. The figures shown in the table are based on all those occupations in which more than one person is emplo
+y
+ed at the relevant location. For RLMS the locations are the 160 interviewing sites, for VTsIOM the 11 Russian regions, although the breakdown by oblast and by polling sites is almost identical. The ISITO data is across four cities. Restricting the selecti
+o
+n to a minimum of either five or ten cases substantially increases the dispersion within occupations but reduces the data and restricts it to larger population centres. The RLMS and VTsIOM data provides information only on the wage received in the previou
+s
+ month, which means that the non-payment of wages creates problems. The problem is evaded here by including only those respondents who said that they were paid their last wage in full and on time, who had no wages owed to them and had experienced no perio
+d
+s of compulsory leave in the current year (this latter information is not available for the VTsIOM data). This also substantially reduces the dispersion within occupations (Lehmann et al., 2000 show that the majority of earnings inequality in the RLMS dat
+a is accounted for by those in arrears). In the ISITO survey respondents were asked both about the average monthly wage and about the \lquote normal\rquote 
+ wage. The latter is used as the basis for the figures reported here. Using hourly wages instead of monthly wages (
+the VTsIOM data set does not include information on hours worked) also increases the dispersion within occupations, but payment by the hour is still very much the exception in Russia. No correction has been made for regional price differences in computing
+ 
+the MLD. In the ISITO survey these are not substantial, but in the RLMS data almost half the total variation in wages is accounted for by variation between sites. The VTsIOM data is bi-monthly. The data has been corrected for price changes using the consu
+mer price index for the month in question and then normalised each year to eliminate seasonal fluctuations and trend changes in wages to give an equal average wage each month.}}}{
+ The data clearly shows that about half the dispersion of wages in local labour markets is within four-digit occupations. If we take the full VTsIOM dataset for 1993-7 we find that the dispersion is high acr
+oss all 399 occupations covered. It is slightly higher for senior managerial, skilled agricultural and unskilled manual occupations, and slightly lower for public service occupations but there are no other striking differences between branches or occupati
+onal categories, nor are there any such differences in the ISITO survey data. There are no significant differences over time. 
+\par Although a cleaner in a bank is paid far more than a cleaner in a hospital, differences in branch affiliation do not account for t
+he majority of the differences in wages in the cities covered in the ISITO survey. As can be seen in Table 3, which breaks down the mean log deviation by three-digit branch and four-digit occupation, differences in pay for the same occupation in the same 
+b
+ranch account for between forty and fifty percent of the total wage inequality in each city, and for substantially more than differences between occupations within the branch. It would appear that we are dealing with a general phenomenon across all branch
+es and occupations, not one specific to particular kinds of jobs, particular production technologies or particular market situations, as would be implied by theories of labour market segmentation, implicit contracts, \lquote compensating differentials
+\rquote , \lquote insider-outsider\rquote  models or \lquote efficiency wages\rquote .}{\cs20\fs20\super  }{
+\par }\pard \qc\sb120\sl480\slmult1\nowidctlpar\adjustright { [Table Three about here]
+\par }\pard \qj\sb120\sl480\slmult1\nowidctlpar\adjustright {Given that the dispersion of wages is pretty uniform across occupations, it would seem more likely that it reflects differences in the wage paid between establishments, rather than differenc
+es paid to different individuals at different points on the wage ladder within individual firms. Unfortunately we do not have a data set which allows us to decompose individual wage inequality within and between individual firms. However, the Russian Labo
+u
+r Flexibility Survey collects firm-level data on average wages and the average wage of eight occupational gradings (managers, specialists and clerical workers at enterprise and shop levels, skilled and unskilled manual workers) for a sample of industrial 
+e
+nterprises. The relevant dispersion indices for average wages between enterprises and for the dispersion of wages within the enterprise are summarised in Table 4 (the first column relates to the panel of 145 enterprises surveyed in all four years). As can
+ 
+be seen from the first and third columns, the dispersion of wages between enterprises, even within branches and oblasts, is substantial, accounting for about half the total dispersion of wages at the individual level suggested by the sources cited above, 
+with the data suggesting that the dispersion of wages has been increasing over time. By contrast, the dispersion of wages between occupational categories within the enterprise accounts for only a very small proportion of the total dispersion of wages.}{
+\cs20\fs20\super \chftn {\footnote \pard\plain \s19\qj\sb120\sl480\slmult1\nowidctlpar\adjustright \fs20\cgrid {\cs20\super \chftn }{ I am very grateful to the Centre for Labour Market Studies of the Institute of 
+Economics of the Russian Academy of Sciences for making this data available to me. Those enterprises which reported that they had paid no wages the previous month are excluded, but some enterprises may have paid only a portion of the wages due. The increa
+s
+ing incidence of non-payment will account for at least part of the increase in reported dispersion between 1994 and 1997. The MLD of wages of occupational groups within the enterprise is the MLD of the average wage of each of the groups, weighted by the n
+umber in each category.}}}{ Dispersion indices for official Goskomstat enterprise-level average wage data for four regions for 1996 is given in the final rows (branches are industry, trade and construction).}{\cs20\fs20\super \chftn {\footnote 
+\pard\plain \s19\qj\sb120\sl480\slmult1\nowidctlpar\adjustright \fs20\cgrid {\cs20\super \chftn }{
+ This data includes a number of enterprises which report very high or very low wages, although the average monthly wage reported in this case is supposed to be the \lquote accounting wage\rquote , i.e. the wage which should be paid, whether or no
+t it actually is paid, so the data should not be affected by non-payment. There is no obvious explanation for these discrepancies (Luke and Schaffer, 2000). In the final row, in calculating the MLD I have excluded all enterprises which report paying an av
+erage wage below 150,000 (just over twice the legal minimum wage) or over 3,500,000 roubles a month (about the highest average recorded in the corresponding RLFS data set). I am grateful to Vladimir Gimpel\rquote son for making this data available to me.}
+}}{ Although this data is rather unsatisfactory, it shows a wage dispersion of the same order of magnitude as the much smaller RLFS data set.
+\par }\pard\plain \s15\qc\sb120\sa120\sl480\slmult1\nowidctlpar\adjustright \i\lang2057\cgrid {\i0 [Table Four about here]
+\par }\pard\plain \s2\qj\sb240\sa60\sl480\slmult1\keepn\widctlpar\outlinelevel1\adjustright \b\i\f1\lang2057\cgrid {The determinants of individual pay differentials
+\par }\pard\plain \qj\sb120\sl480\slmult1\widctlpar\adjustright \lang2057\cgrid {Substantial wage differences within occupations are perfectly compatible with competitive labour market theory, according to
+ which individuals with more skill, ability and experience can earn more at a particular job because they are more productive. In this case the explanation for our findings would be that more successful enterprises have been able to pay higher wages and a
+t
+tract the more highly skilled and so more productive employees to justify paying those higher wages. The final question that we have to address, therefore, is to what extent wage differentiation within occupations, within local labour markets, is based on
+ 
+differences in individual skill, experience and capacity and to what extent does it express differences in the willingness and ability of employers to pay higher wages? The two are by no means mutually exclusive, since the employer who pays higher wages c
+a
+n pursue more selective hiring and firing policies so as to end up with the better qualified employees, but if we find that there is little relation between relative pay and individual capacities then the presumption must be that pay differentials are ins
+titutionally embedded rather than being determined in the labour market. 
+\par The measuring of individual capacities, whether from the point of view of personnel selection or econometric analysis, is notoriously difficult. We have already noted that research on wage determination in Russia finds that \lquote human capital\rquote 
+ variables explain very little of the variation in wages, a standard Mincerian quadratic regression explaining only 4% of the variation in hourly wages across Russia in the 1994 RLMS data (Grogan, 199
+7, p. 7), 7.5% in the 1998 RLMS data or 11% in the ISITO data (with regional controls, my calculations), with only a small return to years of education and rather larger (though diminishing) returns to experience.}{\cs20\fs20\super \chftn {\footnote 
+\pard\plain \s19\qj\sb120\sl480\slmult1\nowidctlpar\adjustright \fs20\cgrid {\cs20\super \chftn }{ Age and education account for over a quarter of the variance of wages in the UK and over a third in the US (Machin, 1996, p. 56).}}}{
+ This observation may be reconciled with c
+ompetitive labour market theory by postulating that formal educational qualifications and soviet work experience are particularly poor indicators of the true value of human capital in post-soviet Russia (Brainerd, 1998), but since these are usually the on
+l
+y indicators available to prospective employers (who do not usually use any forms of testing or solicit testimonials in making appointments) then we would expect them to be the factors effective in determining labour market outcomes, at least for the rece
+ntly appointed.}{\cs20\fs20\super \chftn {\footnote \pard\plain \s19\qj\sb120\sl480\slmult1\nowidctlpar\adjustright \fs20\cgrid {\cs20\super \chftn }{
+ A Mincerian regression is as poor for recent appointees as it is for those with longer tenure. It is also no better for those, such
+ as managers and professionals, who are paid according to fixed salary scales, than it is for those such as skilled manual workers who are paid by results.}}}{
+ There may well be unobserved heterogeneity between employees, but if so, this is unobserved both by the econometrician and by the employer. If the employer cannot observe it, then he cannot reward it.}{\cs20\fs20\super \chftn {\footnote \pard\plain 
+\s19\qj\sb120\sl480\slmult1\nowidctlpar\adjustright \fs20\cgrid {\cs20\super \chftn }{ Aghion and Commander have suggested that the heterogeneity may lie in the adaptability/personality
+ of the individual who does or does not seek a better job (Aghion and Commander, 1999), but this would imply that job changers would have higher wages, while wage regressions show wages increasing with tenure and in the RLMS data job-changers tend to expe
+r
+ience a cut in wages (although the standard errors are large so the change is not statistically significant). The fact that the dispersion of wages is similar across all occupational categories, from managers and professionals, through technicians and ski
+lled workers to the unskilled, is much more consistent with the hypothesis that differentiation derives primarily from institutional determinants and reflects only to a very limited degree differences in \lquote human capital\rquote 
+. It may be conceivable that the best-
+paid head of a production division in Samara is seventeen times as productive as the worst-paid, but is it likely that the best-paid loader is able to load ten times as much, or the best-paid cleaner to clean twenty times as much, as the worst-paid? 
+Our findings strongly support Thurow\rquote s suggestion that \lquote one of the ways to explain unequal wages for equal workers is to see wages as being attached to jobs\rquote  (Thurow, 1998, p. 32).}}}{ 
+\par Using the ISITO survey data, we can t
+ake the investigation a little further by distinguishing analytically between those factors which explain wage differentials within occupations and those factors which explain differentials between occupations. We can get some indication of the relative w
+e
+ight of these factors by running a multi-level (random coefficients) regression (using the MLwiN software), which prepares maximum likelihood estimates of the coefficients and standard errors of a regression which includes error terms defined at these dis
+tinct levels. The results of such a regression for all occupations in which there is more than one individual in the relevant city are summarised in Table 5. 
+\par Within this dataset, 71% of the variance in wages is within occupations, 27% is between occupation
+s and only 2% is between cities, the latter being accommodated by relevant dummy variables. We can get some idea of the contribution of the various explanatory variables to the explanation of the variance of wages by comparing the residuals of the regress
+ion with and without the relevant set of variables. With the full set of explanatory variables, 83% of the variance between occupations, but only 18% of the variance within occupations, is explained.
+\par On this basis we find that the \lquote human capital\rquote  variables 
+account for only 4% of the variance within occupations and 5% of the variance between occupations (age and experience account for 3% of the variance within and 2% of the variance between occupations, education accounts for only 1% of the variance within a
+nd 3% of the variance between occupations).}{\cs20\fs20\super \chftn {\footnote \pard\plain \s19\qj\sb120\sl480\slmult1\nowidctlpar\adjustright \fs20\cgrid {\cs20\super \chftn }{
+ We achieve very similar results running a similar regression with the 1998 RLMS 
+data, where we find that age and experience explain 2% of the variance within and 3% of the variance between occupations, education and training accounts for 2% of the variance within and 4% of the variance between occupations, the same as is accounted fo
+r
+ by sex. Socio-economic status accounts for 17% of the variance between occupations in the RLMS data. The coefficients in the RLMS regression are very close to those with the ISITO data. The only significant difference is that in the RLMS data those who h
+ave taken their jobs since 1992 do not earn less than those who have been in their jobs for longer and unskilled workers and junior specialists earn significantly less than in the ISITO data.}}}{
+ The young earn significantly less than prime age adults, but the benefits of experience fade from the mid-40s and those approaching retirement, the most experienced workers of all, earn barely more than do teenag
+ers, particularly if they have had to change jobs since the beginning of reform. Those with technical or higher education earn significantly more than those with secondary education or less. These \lquote human capital\rquote 
+ variables account for much less of the variance in wages between occupations than does the socio-economic status of the occupation, which on its own accounts for a further 11% of the variance of wages between occupations.}{\cs20\fs20\super \chftn 
+{\footnote \pard\plain \s19\qj\sb120\sl480\slmult1\nowidctlpar\adjustright \fs20\cgrid {\cs20\super \chftn }{ Of course, socio-economic status is correlated with education. 
+If we do not control for socio-economic status, education and training accounts for just over a fifth of the variance in wages between occupations. Similarly, men tend to predominate in higher status occupations and higher paying sectors of the economy (i
+n
+ the ISITO sample women account for 85% of junior white collar workers and almost three-quarters of all employees in the budget sector, while men account for over 60% of managers and over 80% of skilled workers). Composite variables (the proportion of men
+ 
+and the proportion with further and higher education in each occupation within this dataset) have a positive impact on the wage which ceases to be statistically significant once socio-economic status and sector are controlled for (using other datasets to 
+d
+efine the composite variables does not affect the results). Comparison of occupational differentiation over time is difficult because the standard errors are large and we have little comparable data for the pre-reform period. However, comparing the coeffi
+cients with those derived by Katz, 1997 from data of a Taganrog survey in 1989 suggests that there has been a sharp relative decline in the wages of unskilled clerical, service and manual workers.}}}{
+ They also account for little more of the variance in wages than does the ascriptive factor of sex, which accounts for 3% of the variance within occupations and 4% of the variance between occupations, controlling for all other variables.}{
+\cs20\fs20\super \chftn {\footnote \pard\plain \s19\qj\sb120\sl480\slmult1\nowidctlpar\adjustright \fs20\cgrid {\cs20\super \chftn }{ The variance is such that sex is not statistically signifi
+cant at the occupational level. Adding dummies for all-male and all-female occupations has no effect. Recent analyses have suggested that a substantial portion of the gender difference in wages in Russia can be explained by occupational differences (Newel
+l and Reilly, 1996; Reilly, 1999), but this regression suggests that these differences in occupational wages reflect the balance of the sexes in particular occupations, so that, other things being equal, men working in \lquote women\rquote s occupations
+\rquote  are not paid significantly less than men working in \lquote men\rquote s occupations\rquote , and conversely for women.}}}{ 
+\par The most powerful determinants of relative wages are the set of dummy variables that reflect characteristics of the enterprise (sector, enterprise size, experience of administrative leave, respondent\rquote 
+s evaluation of relative stability and relative pay and whether the respondent took a pay increase or cut when taking the job). These dummies togethe
+r account for 12% of the variance within occupations and 14% of the variance between occupations: 8% of the variance between occupations is accounted for by the sectoral dummies and 8% of the variance within occupations by the enterprise-level indicators.
+ 
+Small enterprises pay less, as does the budget sector, while new private enterprises pay wages above the average. We have only fragmentary data on firm-specific variables. The existence of a trade union or collective agreement, experience of wage delays, 
+r
+edundancies, and payment in kind, either for the respondent or for the enterprise (not shown here), are not significant indicators of the relative wage, but those enterprises with a recent history of administrative leave, which is the most reliable indica
+t
+or of an enterprise in economic difficulties, pay significantly less than those without. Those employers which respondents say pay less than similar enterprises in fact appear to do so, as do those which respondents describe as being less stable. Those wh
+o
+ say that they took a cut or an increase in pay when taking their present job do in fact earn significantly less or more than the average wage (although the effect tends to be slightly weaker the longer ago they took the job, it remains significant and al
+most as strong even if they took the job before the beginning of reform, suggesting that the pay hierarchy of enterprises is reasonably stable).
+\par }\pard \qc\sb120\sl480\slmult1\widctlpar\adjustright {[Table Five about here]
+\par }\pard\plain \s2\qj\sb240\sa60\sl480\slmult1\keepn\widctlpar\outlinelevel1\adjustright \b\i\f1\lang2057\cgrid { Wage determination and management structures
+\par }\pard\plain \qj\sb120\sl480\slmult1\widctlpar\adjustright \lang2057\cgrid {The Russian labour market in transition wa
+s marked by a dramatic increase in pay differentials immediately following the freeing of wages and prices from administrative control, the scale of which has remained at a similarly high level throughout the period of reform. Despite the limitations of t
+h
+e available data, we have shown that the structure of wage differentials that has developed in Russia does not seem to be primarily the result of labour market processes, since changing differentials bear little relation to changes in the demand for labou
+r
+, while only a very small part of wage differentials appear explicable in terms of differences in human capital. Nor are persistently high differentials a result of barriers to geographical or occupational labour mobility, since the majority of differenti
+ation is within occupational and industrial groupings within local labour markets. 
+\par The bulk of the evidence suggests that changes in relative wages are to be explained primarily by firm-specific variables, with many employers deciding at least partially to
+ maintain the real value of wages in the face of inflation, so that, with the dramatic decline in the overall demand for labour, they end up paying wages well above the market-clearing rates. Our wage regressions suggest that the relative prosperity of th
+e
+ enterprise is one factor in explaining the wages it pays, but our indicators still only explain a small part of wage dispersion. In practice employers enjoy a considerable degree of discretion in their wage determination. There is nothing specifically Ru
+s
+sian about this practice. We observed that this is entirely in conformity with the findings of industrial relations and institutionalist analyses of wage determination in the capitalist world, and we noted that it is foreign-owned companies in Russia whic
+h pay the highest wages of all. 
+\par Large wage differentials between apparently identically qualified workers are by no means specific to Russia, even if the scale of the differentials in Russia is disproportionately large,}{\cs20\fs20\super \chftn {\footnote \pard\plain 
+\s19\qj\sb120\nowidctlpar\adjustright \fs20\cgrid {\cs20\super \chftn }{ }{\lang2057 The average coefficient of variation (CV) within occupations in the Russian data sets ranges between 40% and 60%. This compares to a CV of 16\endash 
+23% within occupations in a UK study of engineering firms in 1966, CVs of 11%, 13% and 15% for fork-lift drivers in Adelaide, Coventry and Chicago (cited }{Brown et al., 1995}{\lang2057 
+), and an average CV between establishments of 14% among production workers in six US manufacturing industries (Groshen, 1991).}}}{ and the failure of competitive labo
+ur market theory to explain these differentials has led to a renewal of interest in institutionalist analyses of wage determination.}{\cs20\fs20\super \chftn {\footnote \pard\plain \s19\qj\sb120\nowidctlpar\adjustright \fs20\cgrid {\cs20\super \chftn }{
+ Groshen concludes her analysis of intra-industry wage dispersion in the US by suggesting \lquote that it may be fruitful to follow the lead of the economists in the 1940s and 1950s\rquote  in focusing on the wage and employment policies of employers (Gr
+oshen, 1991, pp. 882\endash 3).}}}{ The subject requires further research, but on the basis of case study research (Clarke, 1999, Chapter Two) we can conclude
+ by outlining the institutional contours of wage determination in Russia, which may also be of wider relevance.
+\par Wages in a modern economy are not set through an auction in a marketplace, but on the basis of decisions made by managers in hierarchical social
+ organisations. The decision-making process will involve a variety of considerations and a range of interested parties including, in some cases, representatives of employees. Attempts on the part of management unilaterally to alter the scale or level of p
+ay to the detriment of particular groups or the workforce as a whole generate, at best, resentment and, at worst, overt conflict. In the capitalist countries an entire science of \lquote industrial relations\rquote , later transformed into \lquote 
+human resource management\rquote , de
+veloped to find peaceful ways of resolving the conflicts and overcoming the distrust to which attempts to modify the level and structure of pay gave rise. In the Soviet Union, wage reforms were so disruptive that they were constantly postponed (Arnot, 198
+8; Filtzer, 1994). 
+\par Although the most dramatic conflict around wages is that which sets sections of the workforce against the employer, there is also a considerable potential for conflict within the structure of management itself, since different sections o
+f management have different interests corresponding to their different roles. To this extent we can agree with Simon Commander and his colleagues that the distinctive patterns of wage differentiation \lquote 
+reflect the control structure and decision-making rules characterising the bulk of Russian firms\rquote 
+ (Commander et al., 1993, p. 51), but it is necessary to specify what are these rules. For the finance department, wages may be simply a cost to be minimised in the pursuit of maximum profits, and the accountants m
+ay see no reason to pay wages above the lowest rate at which labour can currently be hired in the market. Labour market pressures are more directly transmitted through the personnel department, for which wages are the principal lever of recruitment and re
+t
+ention of employees. Personnel managers may press for an increase in wages if they are losing experienced staff and finding it difficult to fill vacancies with appropriately qualified personnel, and may concur in a reduction in wages if they are being swa
+mped with well-qualified applicants. It is the line managers who are more likely to be the proponents of \lquote efficiency wages\rquote 
+. They will tend to favour high wages which enable them to recruit and retain high quality employees and also provide them with a powe
+rful disciplinary lever and a motivational tool to enable them to meet their performance targets. The dissatisfaction of employees with the level of their remuneration is very likely to be articulated within the structure of management by their line manag
+ers, even where there are not any formal channels of employee representation. 
+\par The tension between \lquote market\rquote  and \lquote institutional\rquote  factors in the determination of wages will be resolved through a process of negotiation between a range of conflicting interests 
+within the management structure. The outcome is likely to depend both on the power and institutional relationships within management and on the scale and character of the external constraints to which the organisation is subject. The typical Russian indus
+t
+rial enterprise still retains the traditional soviet structure of power oriented to the functions of production, in which the management team comprises the enterprise director, chief engineer and shop chiefs, with the economic, financial and personnel dep
+artments being regarded as peripheral services.
+\par The pattern of change in the structure of wages in Russia is consistent with the supposition that employers follow the line of least resistance and in the first instance adjust their hiring and management prac
+tices to a relatively stable level and structure of wages, raising money wages uniformly more or less in line with inflation, although with a lag that is the longer the more hard-pressed is the employer, so that differentials emerge corresponding primaril
+y to the relative prosperity of firms.}{\cs20\fs20\super \chftn {\footnote \pard\plain \s19\qj\sb120\sl480\slmult1\nowidctlpar\adjustright \fs20\cgrid {\cs20\super \chftn }{
+ The evidence suggests that nominal wage increases are related to the economic prospects of the firm, while cash-flow constraints lead to delays in the payment of wages. It is quite inappropriate to conceptualise inter-firm pay differentials as \lquote 
+rent-sharing\rquote  based on the bargaining power of labour, as labour economists do (Teulings, 1998), because this leads to a mis-specification of the dynamics of the process. Neither trade union membership nor the existence of a trade union org
+anisation or a collective agreement are significant variables in the wage regression above.}}}{
+ However, labour is quite mobile in response to wage differentials so lower-wage firms see an increase in quits while the higher-wage employers find large numbers of applicants for vacancies.}{\cs20\fs20\super \chftn {\footnote \pard\plain 
+\s19\qj\sb120\sl480\slmult1\nowidctlpar\adjustright \fs20\cgrid {\cs20\super \chftn }{ We can tentatively draw some conclusions about workers' priorities from the pattern of change of wage differentials in the Russian recession. First, the fact that
+ the size of differentials between branches has increased while the ranking has changed very little would seem to indicate that workers are more concerned about preserving their position relative to other branches than with the actual size of the differen
+t
+ials. Second, the fact that occupational differentials appear to have changed much less than inter-firm differentials would suggest that people are much more concerned about their pay relative to that of others working in the same workplace than about the
+ir pay relative to those working, even in the same occupation, elsewhere.}}}{  The implication of the coexistence of sticky wages and high labour mobility is that there will be \lquote job rationing\rquote 
+ by the more prosperous employers and increased hiring to fill vacancies by the less prosperous. Employers who are in a strong labour market situation use their positi
+on to strengthen labour discipline and to upgrade the labour force by making increased demands of new employees. Employers who are in a weaker financial situation may have to accept a deterioration of labour discipline and in the quality of the labour for
+ce while their remaining employees suffer declining wages and deteriorating working conditions.}{\cs20\fs20\super \chftn {\footnote \pard\plain \s19\qj\sb120\sl480\slmult1\nowidctlpar\adjustright \fs20\cgrid {\cs31\lang2057\super \chftn }{
+ Thurow has recently noted in relation to the US labour market that \lquote the actual short-run clearing mechanism is a rapid upward or downward adjustment in hiring credentials in response to the tightness of labor markets\rquote  so that \lquote 
+the short-run adjustment process is best seen as a job-filtering system\rquote  (Thurow, 1998, pp. 32\endash 3). This picture, noted long ago in the capitalist world (Rees, 1966), corresponds very closely to that which we fi
+nd in the employment policies of Russian enterprises and the corresponding labour market behaviour of Russian workers in transition (Clarke, 1999).}}}{
+ The former employers may incur higher short-run costs than the market allows, but the latter are soon deprived of the human resources that could enable them to 
+recover from their situation should circumstances improve (Clarke, 1998a). Flexible labour markets may remove barriers to innovation, but they also allow the laggards to survive by loading the costs of failure on to their employees. The post-war instituti
+o
+nal economists and industrial relations theorists showed that collective bargaining and statutory wage regulation were public goods because they compelled employers to increase profits by raising labour productivity rather than through the super-exploitat
+ion of the labour force. It is not only in Russia that these lessons apparently need to be re-learned.
+\par }\pard\plain \s1\qj\sb240\sa60\sl480\slmult1\keepn\widctlpar\outlinelevel0\adjustright \b\f1\fs28\lang2057\kerning28\cgrid {References
+\par }\pard\plain \qj\sb120\sl480\slmult1\nowidctlpar\adjustright \lang2057\cgrid {Aghion, P. and Commander, S. 1999, 'On the Dynamics of Inequality', }{\i Economics of Transition}{ 7 (2): 275-98.
+\par Arnot, B. 1988, }{\i Controlling Soviet Labour,}{ Basingstoke: Macmillan.
+\par Atkinson, A.B. and Micklewright, J. 1992, }{\i Economic Transformation in Eastern Europe and the Distribution of Income,}{ Cambridge: Cambridge University Press.
+\par Aukutsionek, S. and Kapeliushnikov, R. 1994, 'The Russian Labor Market in 1993', }{\i RFE/RL Research Report}{ 3 (29): 26-30.
+\par Aukutsionek, S. and Kapelyushnikov, R. 1996a, 'Labour Hoarding in Russian Industry', }{\i Russian Economic Barometer}{ 5 (2): .
+\par Aukutsionek, S. and Kapelyushnikov, R. 1996b, 'Pochemu predpriyatiya priderzhivayut rabochuyu silu', }{\i MEnMO}{ 11 .
+\par Brainerd, E. 1998, 'Winners and Losers in Russia's Economic Transition', }{\i American Economic Review}{ 88 (5): 1094-116.
+\par Brown, A.N. 1997, }{\i The Economic Determinants of Internal Migration Flows in Russia During Transition}{.
+\par }{\f10\cgrid0 Brown, W., Marginson, P. and Walsh, J. 1995, 'Management: Pay Determination and Collective Bargaining' in Edwards, P.K. (ed.) }{\i\f10\cgrid0 Industrial Relations: Theory and Practice in Britain}{\f10\cgrid0 . Oxford: Blackwell Business.
+
+\par }{Brown, W. and Nolan, P. 1988, 'Wages and Labour Productivity: The Contribution of Industrial Relations Research to the Understanding of Pay Determination', }{\i British Journal of Industrial Relations}{ 26 (3): 339-61.
+\par Clarke, S. 1998a, }{\i Structural Adjustment without Mass Unemployment?,}{ Cheltenham: Edward Elgar.
+\par Clarke, S. 1998b, 'Trade Unions and the Non-Payment of Wages in Russia', }{\i International Journal of Manpower}{ 19 (1/2): 68-94.
+\par Clarke, S. 1999, }{\i The Formation of a Labour Market in Russia,}{ Cheltenham: Edward Elgar.
+\par Clarke, S. and Metalina, T. 2000, 'Training in the New Private Sector in Russia', }{\i International Journal of Human Resource Management}{ .
+\par Commander, S., Dhar, S. and Yemtsov, R. 1996a, 'How Russian Firms Make Their Wage and Employment Decisions' in Commander, S., Fan, Q. and Schaffer, M.E. (eds.) }{\i Enterprise Restructuring and Economic Policy in Russia}{. Washington D.C.: The World Bank.
+
+\par Commander, S., Lee, U.J. and Tolstopiatenko, A. 1996b, 'Social Benefits and the Russian Industrial Firm' in Commander, S., Fan, Q. and Schaffer, M.E. (eds.) }{\i Enterprise Restructuring and Economic Policy in Russia}{
+, 52-83. Washington D.C.: The World Bank.
+\par Commander, S., Liberman and Yemtsov, R. 1993, }{\i Wage and Employment Decisions in the Russian Economy: An Analysis of Developments in 1992,}{ Washington, D.C.: EDI.
+\par Commander, S., McHale, J. and Yemtsov, R. 1995, 'Russia' in Commander, S. and Coricelli, F. (eds.) }{\i Unemployment, Restructuring and the Labor Market in Eastern Europe and Russia}{, 147-91. Washington DC: The World Bank.
+\par Dunlop, J.T. 1957, 'The Task of Contemporary Wage Theory' in Taylor, G.W. and Pierson, F.C. (eds.) }{\i New Concepts in Wage Determination}{, 117-39. New York: McGraw Hill.
+\par Earle, J. and Sabirianova, K. 1999, 'Understanding Wage Arrears in Russia', }{\i SITE Working Paper}{ 139 .
+\par Filtzer, D. 1994, }{\i Soviet Workers and Perestroika,}{ Cambridge: Cambridge University Press.
+\par Gerber, T.P. and Hout, M. 1998, 'More Shock than Therapy: Market Transition, Employment and Income in Russia, 1991-1995', }{\i American Journal of Sociology}{ 104 (July).
+\par Goskomstat 1996, }{\i Rossiiskii Statisticheskii Ezhegodnik,}{ Moscow: Goskomstat Rossii.
+\par Goskomstat 1998, }{\i Rossiiskii Statisticheskii Ezhegodnik,}{ Moscow: Goskomstat Rossii.
+\par Grogan, L. 1997, }{\i Wage Dispersion in Russia,}{ Amsterdam: Tinbergen Institute.
+\par }{\f10\cgrid0 Groshen, E.L. 1991, 'Sources of Intra-industry Wage Dispersion: How Much do Employers Matter?', }{\i\f10\cgrid0 Quarterly Journal of Economics}{\f10\cgrid0  (August): 869-84.
+\par }{Healey, N.N., Leksin, V. and Svetov, A. 1998, 'Privatisation and enterprise-owned social assets', }{\i Russian Economic Barometer}{ 2 18-38.
+\par Jenkins, S.P. 1995, 'Accounting for Inequality Trends: Decomposition Analyses for the UK, 1971-86', }{\i Economica}{ 62 29-63.
+\par Kapelyushnikov, R. 1999, }{\i Rossiiskii rynok truda: adaptatsiya bez restrukturizatsii,}{ Moscow: IMEMO.
+\par Katz, K. 1997, 'Gender, wages and discrimination in the USSR: a study of a Russian industrial town', }{\i Cambridge Journal of Economics}{ 21 431-52.
+\par Layard, R. and Richter, A. 1995, 'How much unemployment is needed for restructuring: the Russian experience', }{\i Economics of Transition}{ 3 (1): 39-58.
+\par Lehmann, H., Wadsworth, J. and Yemtsov, R. 2000, }{\i They Who Get Slapped. Wage Arrears and the Distribution of Earnings in Russia.,}{ Mimeo.
+\par Luke, P.J. and Schaffer, M.E. 2000, }{\i Wage Determination in Russia: An Econometric Investigation,}{ Bonn: IZA.
+\par Machin, S. 1996, 'Wage Inequality in the UK', }{\i Oxford Review of Economic Policy}{ 12 (1): 47-64.
+\par Newell, A. and Reilly, B. 1996, 'The gender wage gap in Russia: Some empirical evidence', }{\i Labour Economics}{ 3 337-56.
+\par OECD 1995, }{\i Economic Surveys: The Russian Federation,}{ Paris: OECD.
+\par Rees, A. 1966, 'Information Networks in Labor Markets', }{\i American Economic Review}{ 56 559-66.
+\par Reilly, B. 1999, 'The gender pay gap in Russia during the transition, 1992-96', }{\i Economics of Transition}{ 7 (1): 245-64.
+\par Standing, G. 1996, }{\i Russian Unemployment and Enterprise Restructuring: Reviving Dead Souls,}{ Basingstoke: Macmillan.
+\par }{\f10\cgrid0 Teulings, C.N. 1998, 'Wage Dispersion and Institutions: An Alternative Explanation', }{\i\f10\cgrid0 Research in Labor Economics}{\f10\cgrid0  17 357-82.}{
+\par Thurow, L. 1998, 'Who done it?', }{\i Journal of Post-Keynesian Economics}{ 21 (1): 25-38.
+\par \sect }\sectd \linex0\headery709\footery709\colsx709\sectdefaultcl \pard\plain \s15\sb120\sa120\sl480\slmult1\widctlpar\adjustright \i\lang2057\cgrid {{\*\bkmkstart _Ref449321681}{\*\bkmkstart _Toc451312085}{\*\bkmkstart _Toc456753731}Table 
+{\*\bkmkend _Ref449321681}1: Real Wages and Measures of Wage Inequality{\*\bkmkend _Toc451312085}{\*\bkmkend _Toc456753731}
+\par }\trowd \trgaph28 \clvertalt\clbrdrt\brdrs\brdrw30\brdrcf15 \clbrdrb\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx2297\clvertalt\clbrdrt\brdrs\brdrw30\brdrcf15 \clbrdrb\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx2807\clvertalt\clbrdrt\brdrs\brdrw30\brdrcf15 
+\clbrdrb\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx3317\clvertalt\clbrdrt\brdrs\brdrw30\brdrcf15 \clbrdrb\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx3827\clvertalt\clbrdrt\brdrs\brdrw30\brdrcf15 \clbrdrb\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx4337\clvertalt
+\clbrdrt\brdrs\brdrw30\brdrcf15 \clbrdrb\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx4847\clvertalt\clbrdrt\brdrs\brdrw30\brdrcf15 \clbrdrb\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx5357\clvertalt\clbrdrt\brdrs\brdrw30\brdrcf15 \clbrdrb\brdrs\brdrw15\brdrcf15 
+\cltxlrtb \cellx5867\clvertalt\clbrdrt\brdrs\brdrw30\brdrcf15 \clbrdrb\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx6377\clvertalt\clbrdrt\brdrs\brdrw30\brdrcf15 \clbrdrb\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx6887\clvertalt\clbrdrt\brdrs\brdrw30\brdrcf15 
+\clbrdrb\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx7397\clvertalt\clbrdrt\brdrs\brdrw30\brdrcf15 \clbrdrb\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx7907\pard\plain \s23\sl480\slmult1\nowidctlpar\intbl\adjustright \fs26\lang2057\kerning20\cgrid {\fs22 \page 
+\cell }\pard \s23\qr\sl480\slmult1\nowidctlpar\intbl\adjustright {\fs22 1964\cell 1980\cell 1990\cell 1991\cell 1992\cell 1993\cell 1994\cell 1995 \cell 1996 \cell 1997\cell 1998\cell }\pard\plain \widctlpar\intbl\adjustright \lang2057\cgrid {\fs22 \row 
+}\trowd \trgaph28 \clvertalt\cltxlrtb \cellx2297\clvertalt\cltxlrtb \cellx2807\clvertalt\cltxlrtb \cellx3317\clvertalt\cltxlrtb \cellx3827\clvertalt\cltxlrtb \cellx4337\clvertalt\cltxlrtb \cellx4847\clvertalt\cltxlrtb \cellx5357\clvertalt\cltxlrtb 
+\cellx5867\clvertalt\cltxlrtb \cellx6377\clvertalt\cltxlrtb \cellx6887\clvertalt\cltxlrtb \cellx7397\clvertalt\cltxlrtb \cellx7907\pard\plain \s23\sl480\slmult1\nowidctlpar\intbl\adjustright \fs26\lang2057\kerning20\cgrid {\fs22 Real wages (1985=100)
+\cell }\pard \s23\qr\sl480\slmult1\nowidctlpar\intbl\adjustright {\fs22 45\cell 87\cell 152\cell 147\cell 99\cell 99\cell 91\cell 66\cell 70\cell 73\cell 64\cell }\pard\plain \widctlpar\intbl\adjustright \lang2057\cgrid {\fs22 \row }\pard\plain 
+\s23\sl480\slmult1\nowidctlpar\intbl\adjustright \fs26\lang2057\kerning20\cgrid {\fs22 Gini coefficient (*100)\cell }\pard \s23\qr\sl480\slmult1\nowidctlpar\intbl\adjustright {\fs22 24 \cell \cell \cell 31\cell \cell \cell 44\cell 45\cell 44\cell 45\cell 
+\cell }\pard\plain \widctlpar\intbl\adjustright \lang2057\cgrid {\fs22 \row }\pard\plain \s23\sl480\slmult1\nowidctlpar\intbl\adjustright \fs26\lang2057\kerning20\cgrid {\fs22 Top decile wage share %\cell }\pard \s23\qr\sl480\slmult1
+\nowidctlpar\intbl\adjustright {\fs22 18\cell \cell \cell \cell \cell \cell 32\cell 34\cell 33\cell 33\cell \cell }\pard\plain \widctlpar\intbl\adjustright \lang2057\cgrid {\fs22 \row }\pard\plain \s23\sl480\slmult1\nowidctlpar\intbl\adjustright 
+\fs26\lang2057\kerning20\cgrid {\fs22 Bottom decile share %\cell }\pard \s23\qr\sl480\slmult1\nowidctlpar\intbl\adjustright {\fs22 5.4\cell \cell \cell \cell \cell \cell 1.4\cell 1.3\cell 1.4\cell 1.3\cell \cell }\pard\plain \widctlpar\intbl\adjustright 
+\lang2057\cgrid {\fs22 \row }\pard\plain \s23\sl480\slmult1\nowidctlpar\intbl\adjustright \fs26\lang2057\kerning20\cgrid {\fs22 Decile ratio of shares\cell }\pard \s23\qr\sl480\slmult1\nowidctlpar\intbl\adjustright {\fs22 3\cell \cell \cell 8\cell \cell 
+\cell 23\cell 26\cell 24\cell 25\cell \cell }\pard\plain \widctlpar\intbl\adjustright \lang2057\cgrid {\fs22 \row }\pard\plain \s23\sl480\slmult1\nowidctlpar\intbl\adjustright \fs26\lang2057\kerning20\cgrid {\fs22 Ninth to first decile\cell }\pard 
+\s23\qr\sl480\slmult1\nowidctlpar\intbl\adjustright {\fs22 3\cell \cell \cell \cell \cell \cell 10\cell 10\cell 10\cell 10\cell \cell }\pard\plain \widctlpar\intbl\adjustright \lang2057\cgrid {\fs22 \row }\pard\plain \s23\sl480\slmult1
+\nowidctlpar\intbl\adjustright \fs26\lang2057\kerning20\cgrid {\fs22 Dispersion (MLD) \cell }\pard\plain \qr\sl480\slmult1\widctlpar\intbl\adjustright \lang2057\cgrid {\fs22 \cell \cell \cell \cell \cell \cell }{\fs22\cf1 356\cell 383\cell 359\cell 369
+\cell \cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\pard\plain \s23\sl480\slmult1\nowidctlpar\intbl\adjustright \fs26\lang2057\kerning20\cgrid {\fs22 Regional dispersion \cell }\pard\plain \qr\sl480\slmult1\widctlpar\intbl\adjustright 
+\lang2057\cgrid {\fs22 18*\cell 18\cell 17\cell 20\cell 60\cell 58\cell 70\cell 70\cell 70\cell 70\cell \cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\trowd \trgaph28 \clvertalt\cltxlrtb \cellx4337\clvertalt\cltxlrtb \cellx4847
+\clvertalt\cltxlrtb \cellx5357\clvertalt\cltxlrtb \cellx5867\clvertalt\cltxlrtb \cellx6377\clvertalt\cltxlrtb \cellx6887\clvertalt\cltxlrtb \cellx7397\clvertalt\cltxlrtb \cellx7907\pard \sl480\slmult1\widctlpar\intbl\adjustright {\fs22 
+Regional dispersion deflated by prices \cell }\pard \qr\sl480\slmult1\widctlpar\intbl\adjustright {\fs22 46\cell 25\cell 29\cell 30\cell 32\cell 33\cell \cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\trowd \trgaph28 \clvertalt\cltxlrtb \cellx5357
+\clvertalt\cltxlrtb \cellx5867\clvertalt\cltxlrtb \cellx6377\clvertalt\cltxlrtb \cellx6887\clvertalt\cltxlrtb \cellx7397\clvertalt\cltxlrtb \cellx7907\pard \sl480\slmult1\widctlpar\intbl\adjustright {\fs22 
+Regional dispersion deflated by subsistence minimum \cell }\pard \qr\sl480\slmult1\widctlpar\intbl\adjustright {\fs22 26\cell 25\cell 24\cell 24\cell \cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\trowd \trgaph28 \clvertalt\cltxlrtb \cellx2297
+\clvertalt\cltxlrtb \cellx2807\clvertalt\cltxlrtb \cellx3317\clvertalt\cltxlrtb \cellx3827\clvertalt\cltxlrtb \cellx4337\clvertalt\cltxlrtb \cellx4847\clvertalt\cltxlrtb \cellx5357\clvertalt\cltxlrtb \cellx5867\clvertalt\cltxlrtb \cellx6377
+\clvertalt\cltxlrtb \cellx6887\clvertalt\cltxlrtb \cellx7397\clvertalt\cltxlrtb \cellx7907\pard\plain \s23\sl480\slmult1\nowidctlpar\intbl\adjustright \fs26\lang2057\kerning20\cgrid {\fs22 Branch dispersion \cell }\pard \s23\qr\sl480\slmult1
+\nowidctlpar\intbl\adjustright {\fs22 21*\cell }\pard\plain \qr\sl480\slmult1\widctlpar\intbl\adjustright \lang2057\cgrid {\fs22\cf1 17\cell 22\cell 25\cell 71\cell 67\cell 77\cell 81\cell 78\cell 82\cell \cell }\pard \widctlpar\intbl\adjustright {\fs22 
+\row }\pard\plain \s26\qj\fi-709\li709\sb60\sa120\sl480\slmult1\nowidctlpar\adjustright \i\fs22\lang2057\kerning20\cgrid {Sources: * 1970. Figures calculated from data in Goskomstat, 1996; Goskomstat, 1998 (1980 and 1985 are not inde
+xed for any price changes). Overall distribution indicators are calculated from decile distributions (1997 gini from more detailed data is 0.44 and mld is 384). Soviet Union: Redor 1992, pp. 55\endash 
+6. Dispersion is the mean log deviation (MLD) of the aggregate (from decile distributions), regional (76 regions) or branch (21 branches) mean wages relative to the average, weighted by employment (multiplied by 10}{\super 3}{
+ for clarity). The regional dispersion is also shown for income deflated by the regional subsistence minimum and by relative prices.
+\par }\pard\plain \s15\sb120\sa120\sl480\slmult1\widctlpar\adjustright \i\lang2057\cgrid {\page {\*\bkmkstart _Ref456450510}{\*\bkmkstart _Toc456753732}Table 2:{\*\bkmkend _Ref456450510} Decomposition of wage inequality within and between occupations.
+{\*\bkmkend _Toc456753732} 
+\par }\trowd \trgaph85\trrh250\trleft-85 \clvertalt\clbrdrt\brdrs\brdrw30\brdrcf15 \cltxlrtb \cellx1177\clvertalt\clbrdrt\brdrs\brdrw30\brdrcf15 \cltxlrtb \cellx1788\clvertalt\clbrdrt\brdrs\brdrw30\brdrcf15 \cltxlrtb \cellx2639\clvertalt\clbrdrt
+\brdrs\brdrw30\brdrcf15 \cltxlrtb \cellx3686\clvertalt\clbrdrt\brdrs\brdrw30\brdrcf15 \clbrdrl\brdrs\brdrw15\brdrcf15 \clbrdrb\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx6516\clvertalt\clbrdrt\brdrs\brdrw30\brdrcf15 \clbrdrl\brdrs\brdrw15\brdrcf15 \cltxlrtb 
+\cellx7347\pard\plain \s23\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright \fs26\lang2057\kerning20\cgrid {\cell \cell Total\cell MLD\cell Percentage of total MLD\cell \cell }\pard\plain \widctlpar\intbl\adjustright \lang2057\cgrid {\row }\trowd 
+\trgaph85\trrh250\trleft-85 \clvertalt\clbrdrb\brdrs\brdrw30\brdrcf15 \cltxlrtb \cellx1177\clvertalt\clbrdrb\brdrs\brdrw30\brdrcf15 \cltxlrtb \cellx1788\clvertalt\clbrdrb\brdrs\brdrw30\brdrcf15 \cltxlrtb \cellx2639\clvertalt\clbrdrb
+\brdrs\brdrw30\brdrcf15 \cltxlrtb \cellx3686\clvertalt\clbrdrl\brdrs\brdrw15\brdrcf15 \clbrdrb\brdrs\brdrw30\brdrcf15 \cltxlrtb \cellx5076\clvertalt\clbrdrb\brdrs\brdrw30\brdrcf15 \clbrdrr\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx6516\clvertalt\clbrdrb
+\brdrs\brdrw30\brdrcf15 \cltxlrtb \cellx7347\pard\plain \s23\sb60\sa60\sl360\slmult1\nowidctlpar\intbl\adjustright \fs26\lang2057\kerning20\cgrid {\cell \cell MLD\cell within location\cell within occupation and location\cell 
+between occupations within location\cell }\pard \s23\qc\sb60\sa60\sl360\slmult1\nowidctlpar\intbl\adjustright {N\cell }\pard\plain \widctlpar\intbl\adjustright \lang2057\cgrid {\row }\trowd \trgaph85\trrh250\trleft-85 \clvertalt\cltxlrtb \cellx1177
+\clvertalt\cltxlrtb \cellx1880\clvertalt\cltxlrtb \cellx2598\clvertalt\cltxlrtb \cellx3686\clvertalt\clbrdrl\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx5076\clvertalt\clbrdrr\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx6516\clvertalt\cltxlrtb \cellx7347
+\pard\plain \s23\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright \fs26\lang2057\kerning20\cgrid {VTsIOM\cell 1993\cell }\pard \s23\qr\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright {0.41\cell }\pard \s23\qr\ri113\sb60\sl360\slmult1
+\nowidctlpar\intbl\adjustright {0.40\cell }\pard \s23\qc\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright {52\cell 45\cell }\pard \s23\qr\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright {15682\cell }\pard\plain \widctlpar\intbl\adjustright 
+\lang2057\cgrid {\row }\pard\plain \s23\qc\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright \fs26\lang2057\kerning20\cgrid {11\cell }\pard \s23\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright {1994\cell }\pard \s23\qr\sb60\sl360\slmult1
+\nowidctlpar\intbl\adjustright {0.37\cell }\pard \s23\qr\ri113\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright {0.34\cell }\pard \s23\qc\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright {43\cell 49\cell }\pard \s23\qr\sb60\sl360\slmult1
+\nowidctlpar\intbl\adjustright {3937\cell }\pard\plain \widctlpar\intbl\adjustright \lang2057\cgrid {\row }\pard\plain \s23\qc\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright \fs26\lang2057\kerning20\cgrid {Russian \cell }\pard \s23\sb60\sl360\slmult1
+\nowidctlpar\intbl\adjustright {1995\cell }\pard \s23\qr\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright {0.36\cell }\pard \s23\qr\ri113\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright {0.35\cell }\pard \s23\qc\sb60\sl360\slmult1
+\nowidctlpar\intbl\adjustright {43\cell 53\cell }\pard \s23\qr\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright {1987\cell }\pard\plain \widctlpar\intbl\adjustright \lang2057\cgrid {\row }\pard\plain \s23\qc\sb60\sl360\slmult1
+\nowidctlpar\intbl\adjustright \fs26\lang2057\kerning20\cgrid {regions\cell }\pard \s23\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright {1996\cell }\pard \s23\qr\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright {0.36\cell }\pard 
+\s23\qr\ri113\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright {0.34\cell }\pard \s23\qc\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright {47\cell 47\cell }\pard \s23\qr\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright {3263\cell }\pard\plain 
+\widctlpar\intbl\adjustright \lang2057\cgrid {\row }\pard\plain \s23\sb60\sa120\sl360\slmult1\nowidctlpar\intbl\adjustright \fs26\lang2057\kerning20\cgrid {\cell 1997\cell }\pard \s23\qr\sb60\sa120\sl360\slmult1\nowidctlpar\intbl\adjustright {0.35\cell 
+}\pard \s23\qr\ri113\sb60\sa120\sl360\slmult1\nowidctlpar\intbl\adjustright {0.32\cell }\pard \s23\qc\sb60\sa120\sl360\slmult1\nowidctlpar\intbl\adjustright {50\cell 42\cell }\pard \s23\qr\sb60\sa120\sl360\slmult1\nowidctlpar\intbl\adjustright {2526\cell 
+}\pard\plain \widctlpar\intbl\adjustright \lang2057\cgrid {\row }\trowd \trgaph85\trrh250\trleft-85 \clvertalt\clbrdrt\brdrs\brdrw15\brdrcf16 \cltxlrtb \cellx1177\clvertalt\clbrdrt\brdrs\brdrw15\brdrcf16 \cltxlrtb \cellx1880\clvertalt\clbrdrt
+\brdrs\brdrw15\brdrcf16 \cltxlrtb \cellx2598\clvertalt\clbrdrt\brdrs\brdrw15\brdrcf16 \cltxlrtb \cellx3686\clvertalt\clbrdrt\brdrs\brdrw15\brdrcf16 \clbrdrl\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx5076\clvertalt\clbrdrt\brdrs\brdrw15\brdrcf16 \clbrdrr
+\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx6516\clvertalt\clbrdrt\brdrs\brdrw15\brdrcf16 \cltxlrtb \cellx7347\pard\plain \s23\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright \fs26\lang2057\kerning20\cgrid {RLMS \cell 1994\cell }\pard 
+\s23\qr\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright {0.37\cell }\pard \s23\qr\ri113\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright {0.24\cell }\pard \s23\qc\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright {35\cell 34\cell }\pard 
+\s23\qr\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright {1039\cell }\pard\plain \widctlpar\intbl\adjustright \lang2057\cgrid {\row }\trowd \trgaph85\trrh250\trleft-85 \clvertalt\cltxlrtb \cellx1177\clvertalt\cltxlrtb \cellx1880\clvertalt\cltxlrtb 
+\cellx2598\clvertalt\cltxlrtb \cellx3686\clvertalt\clbrdrl\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx5076\clvertalt\clbrdrr\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx6516\clvertalt\cltxlrtb \cellx7347\pard\plain \s23\sb60\sl360\slmult1
+\nowidctlpar\intbl\adjustright \fs26\lang2057\kerning20\cgrid {160 sites\cell 1995\cell }\pard \s23\qr\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright {0.34\cell }\pard \s23\qr\ri113\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright {0.22\cell }\pard 
+\s23\qc\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright {32\cell 33\cell }\pard \s23\qr\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright {766\cell }\pard\plain \widctlpar\intbl\adjustright \lang2057\cgrid {\row }\pard\plain \s23\sb60\sl360\slmult1
+\nowidctlpar\intbl\adjustright \fs26\lang2057\kerning20\cgrid {\cell 1996\cell }\pard \s23\qr\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright {0.42\cell }\pard \s23\qr\ri113\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright {0.24\cell }\pard 
+\s23\qc\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright {29\cell 27\cell }\pard \s23\qr\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright {486\cell }\pard\plain \widctlpar\intbl\adjustright \lang2057\cgrid {\row }\pard\plain \s23\sb60\sa120\sl360\slmult1
+\nowidctlpar\intbl\adjustright \fs26\lang2057\kerning20\cgrid {\cell 1998\cell }\pard \s23\qr\sb60\sa120\sl360\slmult1\nowidctlpar\intbl\adjustright {0.33\cell }\pard \s23\qr\ri113\sb60\sa120\sl360\slmult1\nowidctlpar\intbl\adjustright {0.21\cell }\pard 
+\s23\qc\sb60\sa120\sl360\slmult1\nowidctlpar\intbl\adjustright {31\cell 33\cell }\pard \s23\qr\sb60\sa120\sl360\slmult1\nowidctlpar\intbl\adjustright {359\cell }\pard\plain \widctlpar\intbl\adjustright \lang2057\cgrid {\row }\trowd 
+\trgaph85\trrh250\trleft-85 \clvertalt\clbrdrt\brdrs\brdrw15\brdrcf16 \clbrdrb\brdrs\brdrw30\brdrcf16 \cltxlrtb \cellx1177\clvertalt\clbrdrt\brdrs\brdrw15\brdrcf16 \clbrdrb\brdrs\brdrw30\brdrcf16 \cltxlrtb \cellx1880\clvertalt\clbrdrt
+\brdrs\brdrw15\brdrcf16 \clbrdrb\brdrs\brdrw30\brdrcf16 \cltxlrtb \cellx2598\clvertalt\clbrdrt\brdrs\brdrw15\brdrcf16 \clbrdrb\brdrs\brdrw30\brdrcf16 \cltxlrtb \cellx3686\clvertalt\clbrdrt\brdrs\brdrw15\brdrcf16 \clbrdrl\brdrs\brdrw15\brdrcf15 \clbrdrb
+\brdrs\brdrw30\brdrcf16 \cltxlrtb \cellx5076\clvertalt\clbrdrt\brdrs\brdrw15\brdrcf16 \clbrdrb\brdrs\brdrw30\brdrcf16 \clbrdrr\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx6516\clvertalt\clbrdrt\brdrs\brdrw15\brdrcf16 \clbrdrb\brdrs\brdrw30\brdrcf16 \cltxlrtb 
+\cellx7347\pard\plain \s23\sb60\sa60\sl360\slmult1\nowidctlpar\intbl\adjustright \fs26\lang2057\kerning20\cgrid {ISITO
+\par 4 cities\cell 1998\cell }\pard \s23\qr\sb60\sa60\sl360\slmult1\nowidctlpar\intbl\adjustright {0.25\cell }\pard \s23\qr\ri113\sb60\sa60\sl360\slmult1\nowidctlpar\intbl\adjustright {0.24\cell }\pard \s23\qc\sb60\sa60\sl360\slmult1
+\nowidctlpar\intbl\adjustright {51\cell 45\cell }\pard \s23\qr\sb60\sa60\sl360\slmult1\nowidctlpar\intbl\adjustright {2037\cell }\pard\plain \widctlpar\intbl\adjustright \lang2057\cgrid {\row }\pard\plain \s15\sb120\sa120\sl480\slmult1
+\widctlpar\adjustright \i\lang2057\cgrid {{\*\bkmkstart _Ref456453884}{\*\bkmkstart _Toc456753733}
+\par \page Table {\*\bkmkend _Ref456453884}3: Percentage decomposition of wage inequality within each city, ISITO survey, April/May 1998{\*\bkmkend _Toc456753733}
+\par }\trowd \trgaph30\trrh250\trleft-30 \clvertalt\clbrdrt\brdrs\brdrw30\brdrcf15 \clbrdrb\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx1276\clvertalt\clbrdrt\brdrs\brdrw30\brdrcf15 \clbrdrb\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx2522\clvertalt\clbrdrt
+\brdrs\brdrw30\brdrcf15 \clbrdrb\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx4097\clvertalt\clbrdrt\brdrs\brdrw30\brdrcf15 \clbrdrb\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx5672\clvertalt\clbrdrt\brdrs\brdrw30\brdrcf15 \clbrdrb\brdrs\brdrw15\brdrcf15 \cltxlrtb 
+\cellx6818\clvertalt\clbrdrt\brdrs\brdrw30\brdrcf15 \clbrdrb\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx7401\pard\plain \s23\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright \fs26\lang2057\kerning20\cgrid {\cell MLD within city\cell 
+% of MLD within occupation and branch\cell % of MLD between occupations within branch\cell % of MLD between branches\cell N\cell }\pard\plain \widctlpar\intbl\adjustright \lang2057\cgrid {\row }\trowd \trgaph30\trrh250\trleft-30 \clvertalt\cltxlrtb 
+\cellx1276\clvertalt\cltxlrtb \cellx2522\clvertalt\cltxlrtb \cellx4097\clvertalt\cltxlrtb \cellx5672\clvertalt\cltxlrtb \cellx6818\clvertalt\cltxlrtb \cellx7401\pard\plain \s23\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright 
+\fs26\lang2057\kerning20\cgrid {Samara\cell 0.18\cell 51\cell 30\cell 19\cell 529\cell }\pard\plain \widctlpar\intbl\adjustright \lang2057\cgrid {\row }\pard\plain \s23\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright \fs26\lang2057\kerning20\cgrid {
+Kemerovo\cell 0.28\cell 45\cell 22\cell 33\cell 154\cell }\pard\plain \widctlpar\intbl\adjustright \lang2057\cgrid {\row }\pard\plain \s23\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright \fs26\lang2057\kerning20\cgrid {Lyubertsy\cell 0.24\cell 41\cell 28
+\cell 31\cell 271\cell }\pard\plain \widctlpar\intbl\adjustright \lang2057\cgrid {\row }\trowd \trgaph30\trrh250\trleft-30 \clvertalt\clbrdrb\brdrs\brdrw30\brdrcf15 \cltxlrtb \cellx1276\clvertalt\clbrdrb\brdrs\brdrw30\brdrcf15 \cltxlrtb \cellx2522
+\clvertalt\clbrdrb\brdrs\brdrw30\brdrcf15 \cltxlrtb \cellx4097\clvertalt\clbrdrb\brdrs\brdrw30\brdrcf15 \cltxlrtb \cellx5672\clvertalt\clbrdrb\brdrs\brdrw30\brdrcf15 \cltxlrtb \cellx6818\clvertalt\clbrdrb\brdrs\brdrw30\brdrcf15 \cltxlrtb \cellx7401
+\pard\plain \s23\sb60\sl360\slmult1\nowidctlpar\intbl\adjustright \fs26\lang2057\kerning20\cgrid {Syktyvkar\cell 0.19\cell 52\cell 32\cell 15\cell 194\cell }\pard\plain \widctlpar\intbl\adjustright \lang2057\cgrid {\row }\pard \qj\sb120\sl480\slmult1
+\nowidctlpar\adjustright {
+\par }\pard\plain \s15\sb120\sa120\sl480\slmult1\nowidctlpar\adjustright \i\lang2057\cgrid {\page Table 4: Decomposition of wage inequality between enterprises, RLFS data, 1994-7, Goskomstat regional data 1996
+\par }\trowd \trgaph108\trleft-108 \clvertalt\clbrdrt\brdrs\brdrw30\brdrcf15 \clbrdrb\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx591\clvertalt\clbrdrt\brdrs\brdrw30\brdrcf15 \clbrdrb\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx1985\clvertalt\clbrdrt
+\brdrs\brdrw30\brdrcf15 \clbrdrb\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx3410\clvertalt\clbrdrt\brdrs\brdrw30\brdrcf15 \clbrdrb\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx4536\clvertalt\clbrdrt\brdrs\brdrw30\brdrcf15 \clbrdrb\brdrs\brdrw15\brdrcf15 \cltxlrtb 
+\cellx5924\clvertalt\clbrdrt\brdrs\brdrw30\brdrcf15 \clbrdrb\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx6930\clvertalt\clbrdrt\brdrs\brdrw30\brdrcf15 \clbrdrb\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx8080\clvertalt\clbrdrt\brdrs\brdrw30\brdrcf15 \clbrdrb
+\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx8789\pard\plain \qj\sb120\sl360\slmult1\nowidctlpar\intbl\adjustright \lang2057\cgrid {\fs20 \cell MLD between enterprises within branch and within oblast (same set of 145)\cell MLD between enterprises\cell 
+CV between enterprises\cell }\pard \sb120\sl360\slmult1\nowidctlpar\intbl\adjustright {\fs20 MLD between enterprises within branch and within oblast\cell CV between enterprises within branch and within oblast\cell }\pard \qj\sb120\sl360\slmult1
+\nowidctlpar\intbl\adjustright {\fs20 Average MLD between occupational groups within enterprise\cell N\cell }\pard \widctlpar\intbl\adjustright {\fs20 \row }\trowd \trgaph108\trleft-108 \clvertalt\cltxlrtb \cellx591\clvertalt\cltxlrtb \cellx1985
+\clvertalt\cltxlrtb \cellx3410\clvertalt\cltxlrtb \cellx4536\clvertalt\cltxlrtb \cellx5924\clvertalt\cltxlrtb \cellx6930\clvertalt\cltxlrtb \cellx8080\clvertalt\cltxlrtb \cellx8789\pard \qj\sb120\sl360\slmult1\nowidctlpar\intbl\adjustright {1994\cell .087
+\cell .125\cell .53\cell .085\cell .42\cell .006\cell 367\cell }\pard \widctlpar\intbl\adjustright {\row }\pard \qj\sb120\sl360\slmult1\nowidctlpar\intbl\adjustright {1995\cell .094\cell .137\cell .59\cell .096\cell .45\cell .007\cell 448\cell }\pard 
+\widctlpar\intbl\adjustright {\row }\pard \qj\sb120\sl360\slmult1\nowidctlpar\intbl\adjustright {1996\cell .125\cell .191\cell .63\cell .134\cell .48\cell .007\cell 468\cell }\pard \widctlpar\intbl\adjustright {\row }\pard \qj\sb120\sl360\slmult1
+\nowidctlpar\intbl\adjustright {1997\cell .141\cell .200\cell .70\cell .133\cell .52\cell .009\cell 179\cell }\pard \widctlpar\intbl\adjustright {\row }\pard \qj\sb120\sl360\slmult1\nowidctlpar\intbl\adjustright {1996\cell }{\fs20 Goskomstat data\cell }{
+.235\cell .72\cell .199\cell .63\cell \cell 6304\cell }\pard \widctlpar\intbl\adjustright {\row }\trowd \trgaph108\trleft-108 \clvertalt\clbrdrb\brdrs\brdrw30\brdrcf15 \cltxlrtb \cellx591\clvertalt\clbrdrb\brdrs\brdrw30\brdrcf15 \cltxlrtb \cellx1985
+\clvertalt\clbrdrb\brdrs\brdrw30\brdrcf15 \cltxlrtb \cellx3410\clvertalt\clbrdrb\brdrs\brdrw30\brdrcf15 \cltxlrtb \cellx4536\clvertalt\clbrdrb\brdrs\brdrw30\brdrcf15 \cltxlrtb \cellx5924\clvertalt\clbrdrb\brdrs\brdrw30\brdrcf15 \cltxlrtb \cellx6930
+\clvertalt\clbrdrb\brdrs\brdrw30\brdrcf15 \cltxlrtb \cellx8080\clvertalt\clbrdrb\brdrs\brdrw30\brdrcf15 \cltxlrtb \cellx8789\pard \qj\sb120\sl360\slmult1\nowidctlpar\intbl\adjustright {1996\cell }{\fs20 Goskomstat without outliers\cell }{.186\cell .64
+\cell .158\cell .57\cell \cell 6066\cell }\pard \widctlpar\intbl\adjustright {\row }\pard\plain \s26\qj\fi-709\li709\sb60\sa120\sl480\slmult1\nowidctlpar\adjustright \i\fs22\lang2057\kerning20\cgrid {Source: Author\rquote 
+s calculations from RLFS survey data and Goskomstat data, excluding zero reported wage.
+\par }\pard\plain \s18\qj\sb120\sl480\slmult1\widctlpar\adjustright \i\lang2057\cgrid {\page }{\fs22 Table 5 Multi-level Regression. Dependent Variable: Log of normal hourly wage. Levels: individual, four-digit occupati
+on, city. ISITO survey. All cases in which there is more than one individual in the occupation in the city.}{\f1\fs22 
+\par }\trowd \clvertalt\clbrdrt\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \cltxlrtb \cellx5103\clvertalt\clbrdrt\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \cltxlrtb \cellx6352\clvertalt\clbrdrt\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \cltxlrtb \cellx7558\clvertalt\clbrdrt
+\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \cltxlrtb \cellx8669\pard\plain \qc\sb120\sl360\slmult1\widctlpar\intbl\adjustright \lang2057\cgrid {\fs22  \cell }{\f17\fs22\cf1 Sample Means\cell }{\field\flddirty{\*\fldinst {\fs22 symbol 98 \\f "Symbol" \\s 11}
+}{\fldrslt {\f3\fs22 \'62}}}{\fs22 \cell Std. Error\cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\trowd \clvertalt\cltxlrtb \cellx5103\clvertalt\cltxlrtb \cellx6352\clvertalt\cltxlrtb \cellx7558\clvertalt\cltxlrtb \cellx8669\pard \sl360\slmult1
+\widctlpar\intbl\adjustright {\fs22 Constant\cell }\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 1.550\cell 0.817\cell 0.121\cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\trowd \trkeep \clvertalt\cltxlrtb \cellx8669\pard 
+\qc\sl360\slmult1\widctlpar\intbl\adjustright {\b\i\fs22 Individual- level variables}{\b\i\f17\fs22\cf1 \cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\trowd \trkeep \clvertalt\cltxlrtb \cellx5103\clvertalt\cltxlrtb \cellx6352\clvertalt\cltxlrtb 
+\cellx7558\clvertalt\cltxlrtb \cellx8669\pard \sl360\slmult1\widctlpar\intbl\adjustright {\fs22 Age (years)\cell }\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 40.25\cell 0.044\cell 0.005\cell }\pard \widctlpar\intbl\adjustright {
+\fs22 \row }\pard \sl360\slmult1\widctlpar\intbl\adjustright {\fs22 Age squared /100\cell }\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 17.63\cell -0.055\cell 0.006\cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\pard 
+\sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 Tenure in this job (years)\cell }\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 9.87\cell 0.004\cell 0.002\cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\pard 
+\sl360\slmult1\widctlpar\intbl\adjustright {\fs22 Took job since 1992\cell }\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 0.408\cell -0.062\cell 0.026\cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\trowd \trkeep 
+\clvertalt\cltxlrtb \cellx8647\pard \sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 Education (Completed Secondary or less is reference)\cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\trowd \trkeep \clvertalt\cltxlrtb \cellx5103
+\clvertalt\cltxlrtb \cellx6352\clvertalt\cltxlrtb \cellx7558\clvertalt\cltxlrtb \cellx8669\pard \sl360\slmult1\widctlpar\intbl\adjustright {\fs22 Vocational\cell }\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 0.419\cell 0.116\cell 
+0.025\cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\pard \sl360\slmult1\widctlpar\intbl\adjustright {\fs22 Higher\cell }\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 0.296\cell 0.237\cell 0.036\cell }\pard 
+\widctlpar\intbl\adjustright {\fs22 \row }\pard \sl360\slmult1\widctlpar\intbl\adjustright {\fs22 Undergone training since 1990\cell }\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 0.243\cell 0.091\cell 0.024\cell }\pard 
+\widctlpar\intbl\adjustright {\fs22 \row }\pard \sl360\slmult1\widctlpar\intbl\adjustright {\fs22 Male\cell }\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\fs22 0.443\cell }{\f17\fs22\cf1 0.252\cell 0.030\cell }\pard \widctlpar\intbl\adjustright {
+\fs22 \row }\trowd \trkeep \clvertalt\cltxlrtb \cellx5103\pard \sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 Sector (State enterprise is reference)\cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\trowd \trkeep \clvertalt\cltxlrtb 
+\cellx5103\clvertalt\cltxlrtb \cellx6352\clvertalt\cltxlrtb \cellx7558\clvertalt\cltxlrtb \cellx8669\pard \qj\sl360\slmult1\widctlpar\intbl\adjustright {\fs22 Budget\cell }\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\fs22 0.317\cell }{
+\f17\fs22\cf1 -0.298\cell 0.031\cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\pard \qj\sl360\slmult1\widctlpar\intbl\adjustright {\fs22 Privatised\cell }\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\fs22 0.276\cell }{\f17\fs22\cf1 0.032
+\cell 0.027\cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\pard \qj\sl360\slmult1\widctlpar\intbl\adjustright {\fs22 New Private\cell }\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\fs22 0.156\cell }{\f17\fs22\cf1 0.163\cell 0.036\cell 
+}\pard \widctlpar\intbl\adjustright {\fs22 \row }\trowd \trkeep \clvertalt\cltxlrtb \cellx8647\pard \sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 Size of enterprise (over 100 or not known is reference)\cell }\pard \widctlpar\intbl\adjustright 
+{\fs22 \row }\trowd \trkeep \clvertalt\cltxlrtb \cellx5103\clvertalt\cltxlrtb \cellx6352\clvertalt\cltxlrtb \cellx7558\clvertalt\cltxlrtb \cellx8669\pard \qj\sl360\slmult1\widctlpar\intbl\adjustright {\fs22 Up to 10 \cell }\pard \qr\sl360\slmult1
+\widctlpar\intbl\adjustright {\fs22 0.066\cell }{\f17\fs22\cf1 -0.174\cell 0.044\cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\pard \qj\sl360\slmult1\widctlpar\intbl\adjustright {\fs22 11-100 employees\cell }\pard \qr\sl360\slmult1
+\widctlpar\intbl\adjustright {\fs22 0.293\cell }{\f17\fs22\cf1 -0.092\cell 0.023\cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\trowd \trkeep \clvertalt\cltxlrtb \cellx5103\pard \sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 
+Enterprise indicators\cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\trowd \trkeep \clvertalt\cltxlrtb \cellx5103\clvertalt\cltxlrtb \cellx6352\clvertalt\cltxlrtb \cellx7558\clvertalt\cltxlrtb \cellx8669\pard \qj\sl360\slmult1
+\widctlpar\intbl\adjustright {\fs22 Admin leave\cell }\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\fs22 0.238\cell }{\f17\fs22\cf1 -0.136\cell 0.026\cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\pard \qj\sl360\slmult1
+\widctlpar\intbl\adjustright {\fs22 Less stable than comparable establishments\cell }\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\fs22 0.273\cell }{\f17\fs22\cf1 -0.215\cell }{\fs22 0.032}{\f17\fs22\cf1 \cell }\pard \widctlpar\intbl\adjustright {
+\fs22 \row }\pard \qj\sl360\slmult1\widctlpar\intbl\adjustright {\fs22 Lower pay than comparable establishments\cell }\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\fs22 0.128\cell }{\f17\fs22\cf1 -0.106\cell 0.032\cell }\pard 
+\widctlpar\intbl\adjustright {\fs22 \row }\pard \qj\sl360\slmult1\widctlpar\intbl\adjustright {\fs22 Increased pay when took job\cell }\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\fs22 0.347\cell }{\f17\fs22\cf1 0.164\cell 0.023\cell }\pard 
+\widctlpar\intbl\adjustright {\fs22 \row }\pard \qj\sl360\slmult1\widctlpar\intbl\adjustright {\fs22 Reduced pay when took job\cell }\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\fs22 0.183\cell }{\f17\fs22\cf1 -0.139\cell 0.030\cell }\pard 
+\widctlpar\intbl\adjustright {\fs22 \row }\pard \qj\sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 City (Syktyvkar is reference)\cell }\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 \cell \cell \cell }\pard 
+\widctlpar\intbl\adjustright {\fs22 \row }\pard \qj\sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 Samara\cell }\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 0.373\cell -0.294\cell 0.037\cell }\pard 
+\widctlpar\intbl\adjustright {\fs22 \row }\pard \qj\sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 Kemerovo\cell }\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 0.243\cell -0.062\cell 0.039\cell }\pard 
+\widctlpar\intbl\adjustright {\fs22 \row }\pard \qj\sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 Lyubertsy\cell }\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 0.175\cell -0.025\cell 0.041\cell }\pard 
+\widctlpar\intbl\adjustright {\fs22 \row }\trowd \trkeep \clvertalt\cltxlrtb \cellx8647\pard \qc\sl360\slmult1\widctlpar\intbl\adjustright {\b\i\fs22 Occupation-level variables\cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\trowd \trkeep 
+\clvertalt\cltxlrtb \cellx5103\clvertalt\cltxlrtb \cellx6352\clvertalt\cltxlrtb \cellx7558\clvertalt\cltxlrtb \cellx8669\pard \sl360\slmult1\widctlpar\intbl\adjustright {\fs22 Proportion of men in four-digit occupation\cell }\pard \qr\sl360\slmult1
+\widctlpar\intbl\adjustright {\f17\fs22\cf1 0.438\cell 0.059\cell 0.053\cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\pard \sl360\slmult1\widctlpar\intbl\adjustright {\fs22 Proportion with higher education in occupation\cell }\pard 
+\qr\sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 0.291\cell 0.091\cell 0.085\cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\trowd \trkeep \clvertalt\cltxlrtb \cellx5103\pard \sl360\slmult1\widctlpar\intbl\adjustright {\fs22 
+Occupational status (Skilled worker is reference)\cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\trowd \trkeep \clvertalt\cltxlrtb \cellx5103\clvertalt\cltxlrtb \cellx6352\clvertalt\cltxlrtb \cellx7558\clvertalt\cltxlrtb \cellx8669\pard 
+\sl360\slmult1\widctlpar\intbl\adjustright {\fs22 Managers\cell }\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 0.060\cell 0.174\cell 0.072\cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\pard \sl360\slmult1
+\widctlpar\intbl\adjustright {\fs22 Professional\cell }\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 0.211\cell 0.044\cell 0.078\cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\pard \sl360\slmult1\widctlpar\intbl\adjustright {
+\fs22 Low specialist\cell }\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 0.119\cell -0.106\cell 0.055\cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\pard \sl360\slmult1\widctlpar\intbl\adjustright {\fs22 
+Administrative and commercial\cell }\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 0.086\cell -0.029\cell 0.056\cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\pard \sl360\slmult1\widctlpar\intbl\adjustright {\fs22 Service staff
+\cell }\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 0.109\cell -0.267\cell 0.057\cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\pard \sl360\slmult1\widctlpar\intbl\adjustright {\fs22 Unskilled worker\cell }\pard 
+\qr\sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 0.166\cell -0.171\cell 0.045\cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\trowd \trkeep \clvertalt\clbrdrt\brdrdb\brdrw15 \cltxlrtb \cellx5103\clvertalt\clbrdrt\brdrdb\brdrw15 
+\cltxlrtb \cellx6352\clvertalt\clbrdrt\brdrdb\brdrw15 \cltxlrtb \cellx7558\clvertalt\clbrdrt\brdrdb\brdrw15 \cltxlrtb \cellx8669\pard \sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 Total Variance within occupations\cell }\pard \qr\sl360\slmult1
+\widctlpar\intbl\adjustright {\f17\fs22\cf1 \cell 0.320\cell 0.009\cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\trowd \trkeep \clvertalt\cltxlrtb \cellx5103\clvertalt\cltxlrtb \cellx6352\clvertalt\cltxlrtb \cellx7558\clvertalt\cltxlrtb 
+\cellx8669\pard \sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 Total Variance between occupations\cell }\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 \cell 0.123\cell 0.013\cell }\pard \widctlpar\intbl\adjustright {\fs22 
+\row }\pard \sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 Residual Variance within occupations\cell }\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 \cell 0.263\cell 0.007\cell }\pard \widctlpar\intbl\adjustright {\fs22 
+\row }\pard \sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 Residual Variance between occupations\cell }\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 \cell 0.021\cell 0.004\cell }\pard \widctlpar\intbl\adjustright {\fs22 
+\row }\pard \sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 N\cell }\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 \cell 2982\cell \cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\pard \sl360\slmult1
+\widctlpar\intbl\adjustright {\f17\fs22\cf1 Initial -2LL \cell }\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 \cell 5541.018\cell \cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\trowd \trkeep \clvertalt\clbrdrb\brdrs\brdrw15 
+\cltxlrtb \cellx5103\clvertalt\clbrdrb\brdrs\brdrw15 \cltxlrtb \cellx6352\clvertalt\clbrdrb\brdrs\brdrw15 \cltxlrtb \cellx7558\clvertalt\clbrdrb\brdrs\brdrw15 \cltxlrtb \cellx8669\pard \sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 -2LL \cell 
+}\pard \qr\sl360\slmult1\widctlpar\intbl\adjustright {\f17\fs22\cf1 \cell 4643.273\cell \cell }\pard \widctlpar\intbl\adjustright {\fs22 \row }\pard \qj\sb120\sl480\slmult1\nowidctlpar\adjustright {
+\par }}

@@ -7,11 +7,6 @@ compile_sass = false
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
-# Generate an Atom feed
-generate_feed = false
-
-render_emoji = false
-
 taxonomies = [
 	{name = "authors"},
 	{name = "translators"},
